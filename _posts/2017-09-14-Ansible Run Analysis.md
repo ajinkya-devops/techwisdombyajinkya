@@ -33,7 +33,7 @@ Due to this mess, one tends to feel the need of something, that will present thi
 
 It provides summaries of task results per host or per playbook.
 
-![placeholder](/../assets/img/Post_Images/2017-09-14-Ansible Run Analysis/ara2.png "ARA Tool UI")
+![placeholder](../assets/img/Post_Images/2017-09-14-Ansible Run Analysis/ara2.png "ARA Tool UI")
 
 It allows you to filter task results by playbook, play, host, task or by the status of the task.
 
@@ -54,16 +54,18 @@ There are 2 ways in which you can install ARA in your system.
 1. Using **Ansible Role** hosted on my <a href="https://github.com/AjinkyaBapat/Ansible-Run-Analyser">GitHub Account </a>
 
     * Clone the repo & do:
-      ```yaml
-      ansible-playbook Playbook.yml
-      ```
+
+        ```yaml
+          ansible-playbook Playbook.yml
+        ```
     * If Playbook run is successful, you will get:
-      ```yaml
-      TASK [ara : Display ara UI URL] *******************************************************
-      ok: [localhost] => {
-      "msg": "Access playbook records at http://YOUR_IP:9191"
-      }
-      ```
+
+        ```yaml
+          TASK [ara : Display ara UI URL] *******************************************************
+          ok: [localhost] => {
+          "msg": "Access playbook records at http://YOUR_IP:9191"
+          }
+        ```
     * **Note**: It picks the IP address from ***ansible_default_ipv4*** fact gathered by *Ansible*. If there is no such fact gathered, replace it with your IP in `main.yml` file present in `roles/ara/tasks/` folder.
 
 2. ARA is an open source project available on <a href="https://github.com/dmsimard/ara">Github</a> under the Apache v2 license. Installation instructions are present under **Quickstart chapter**.
