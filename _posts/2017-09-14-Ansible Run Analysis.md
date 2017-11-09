@@ -54,9 +54,9 @@ There are 2 ways in which you can install ARA in your system.
 1. Using **Ansible Role** hosted on my <a href="https://github.com/AjinkyaBapat/Ansible-Run-Analyser">GitHub Account </a>
 
     * Clone the repo & do:
-        ```yaml
-        ansible-playbook Playbook.yml
-        ```
+```yaml
+ansible-playbook Playbook.yml
+```
 
     * If Playbook run is successful, you will get:
 
