@@ -7,17 +7,17 @@ url: "https://ajinkyabapat.github.io" # the base hostname & protocol for your si
 google_analytics: "UA-XXXXXXXX-X"
 
 # User Settings
-username: Jekflix
-user_description: Some text about you.
-disqus_username: disqus_username
+username: Ajinkya
+user_description: DevOps Guy.
+disqus_username: ajinkyabapat
 
 # Social Media
 # Remove the item if you don't need it
-github_username: github_username
-facebook_username: facebook_username
-twitter_username: twitter_username
+github_username: AjinkyaBapat
+facebook_username: iamajinkyabapat
+twitter_username: ajinkyab12
 instagram_username: instagram_username
-linkedin_username: linkedin_username
+linkedin_username: ajinkyabapat
 medium_username: medium_username
 
 # Build settings
