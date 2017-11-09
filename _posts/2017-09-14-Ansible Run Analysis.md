@@ -54,17 +54,17 @@ There are 2 ways in which you can install ARA in your system.
 1. Using **Ansible Role** hosted on my <a href="https://github.com/AjinkyaBapat/Ansible-Run-Analyser">GitHub Account </a>
 
     * Clone the repo & do:
-      ```js
-      ansible-playbook Playbook.yml
-      ```
+    ```js
+    ansible-playbook Playbook.yml
+    ```
     * If Playbook run is successful, you will get:
 
-      ```js
-        TASK [ara : Display ara UI URL] ************************
-        ok: [localhost] => {
-        "msg": "Access playbook records at http://YOUR_IP:9191"
-        }
-      ```
+```js
+  TASK [ara : Display ara UI URL] ************************
+  ok: [localhost] => {
+  "msg": "Access playbook records at http://YOUR_IP:9191"
+  }
+```
     * **Note**: It picks the IP address from ***ansible_default_ipv4*** fact gathered by *Ansible*. If there is no such fact gathered, replace it with your IP in `main.yml` file present in `roles/ara/tasks/` folder.
 
 2. ARA is an open source project available on <a href="https://github.com/dmsimard/ara">Github</a> under the Apache v2 license. Installation instructions are present under **Quickstart chapter**.
