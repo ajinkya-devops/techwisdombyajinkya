@@ -3,7 +3,7 @@ layout: post
 title: ""
 date: 2017-09-14 12:26:40
 image: "../assets/img/Post_Images/2017-09-14-Ansible Run Analysis/ara-with-icon.png"
-description: Analysing Ansible Runs with ARA toolss.
+description: Analysing Ansible Runs with ARA tool.
 category: 'devops'
 tags:
 - ansible
@@ -37,15 +37,15 @@ It provides summaries of task results per host or per playbook.
 
 It allows you to filter task results by playbook, play, host, task or by the status of the task.
 
-![placeholder](/assets/img/Post_Images/2017-09-14-Ansible Run Analysis/ara3.png "ARA Tool UI")
+![placeholder](../assets/img/Post_Images/2017-09-14-Ansible Run Analysis/ara3.png "ARA Tool UI")
 
 With ARA, you’re able to easily drill down from the summary view for the results you’re interested in, whether it’s a particular host or a specific task.
 
-![placeholder](../assets/Post_Images/2017-09-14-Ansible Run Analysis/ara4.png "ARA Tool UI")
+![placeholder](../assets/img/Post_Images/2017-09-14-Ansible Run Analysis/ara4.png "ARA Tool UI")
 
 Beyond browsing a single ansible-playbook run, ARA supports recording and viewing multiple runs in the same database.
 
-![placeholder](../assets/Post_Images/2017-09-14-Ansible Run Analysis/ara5.png "ARA Tool UI")
+![placeholder](../assets/img/Post_Images/2017-09-14-Ansible Run Analysis/ara5.png "ARA Tool UI")
 
 ### Installation
 
@@ -53,18 +53,18 @@ There are 2 ways in which you can install ARA in your system.
 
 1. Using **Ansible Role** hosted on my <a href="https://github.com/AjinkyaBapat/Ansible-Run-Analyser">GitHub Account </a>
 
-  * Clone the repo & do:
-    ```yaml
-    ansible-playbook Playbook.yml
-    ```
-  * If Playbook run is successful, you will get:
-    ```yaml
-    TASK [ara : Display ara UI URL] *******************************************************
-    ok: [localhost] => {
-    "msg": "Access playbook records at http://YOUR_IP:9191"
-    }
-    ```
-  >* **Note**: It picks the IP address from ***ansible_default_ipv4*** fact gathered by *Ansible*. If there is no such fact gathered, replace it with your IP in `main.yml` file present in `roles/ara/tasks/` folder.
+    * Clone the repo & do:
+      ```yaml
+      ansible-playbook Playbook.yml
+      ```
+    * If Playbook run is successful, you will get:
+      ```yaml
+      TASK [ara : Display ara UI URL] *******************************************************
+      ok: [localhost] => {
+      "msg": "Access playbook records at http://YOUR_IP:9191"
+      }
+      ```
+    * **Note**: It picks the IP address from ***ansible_default_ipv4*** fact gathered by *Ansible*. If there is no such fact gathered, replace it with your IP in `main.yml` file present in `roles/ara/tasks/` folder.
 
 2. ARA is an open source project available on <a href="https://github.com/dmsimard/ara">Github</a> under the Apache v2 license. Installation instructions are present under **Quickstart chapter**.
 
