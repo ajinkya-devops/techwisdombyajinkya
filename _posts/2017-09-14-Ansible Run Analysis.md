@@ -2,8 +2,8 @@
 layout: post
 title: ""
 date: 2017-09-14 12:26:40
-image: "/../assets/Post_Images/2017-09-14-Ansible Run Analysis/ara-with-icon.png"
-description: Analysing Ansible Runs with ARA tool.
+image: "../assets/img/Post_Images/2017-09-14-Ansible Run Analysis/ara-with-icon.png"
+description: Analysing Ansible Runs with ARA toolss.
 category: 'devops'
 tags:
 - ansible
@@ -29,19 +29,19 @@ Due to this mess, one tends to feel the need of something, that will present thi
 
 *ARA* records *Ansible* playbook runs and makes the recorded data available and intuitive for users and systems. ARA organizes recorded playbook data in a way to make it intuitive for you to search and find what you’re interested in as fast and as easily as possible.
 
-![placeholder](/assets/Post_Images/2017-09-14-Ansible Run Analysis/ara1.png "ARA Tool UI")
+![placeholder](../assets/img/Post_Images/2017-09-14-Ansible Run Analysis/ara1.png "ARA Tool UI")
 
 It provides summaries of task results per host or per playbook.
 
-![placeholder](../assets/Post_Images/2017-09-14-Ansible Run Analysis/ara2.png "ARA Tool UI")
+![placeholder](/../assets/img/Post_Images/2017-09-14-Ansible Run Analysis/ara2.png "ARA Tool UI")
 
 It allows you to filter task results by playbook, play, host, task or by the status of the task.
 
-![placeholder](/../assets/Post_Images/2017-09-14-Ansible Run Analysis/ara3.png "ARA Tool UI")
+![placeholder](/assets/img/Post_Images/2017-09-14-Ansible Run Analysis/ara3.png "ARA Tool UI")
 
 With ARA, you’re able to easily drill down from the summary view for the results you’re interested in, whether it’s a particular host or a specific task.
 
-![placeholder]('../assets/Post_Images/2017-09-14-Ansible Run Analysis/ara4.png' "ARA Tool UI")
+![placeholder](../assets/Post_Images/2017-09-14-Ansible Run Analysis/ara4.png "ARA Tool UI")
 
 Beyond browsing a single ansible-playbook run, ARA supports recording and viewing multiple runs in the same database.
 
