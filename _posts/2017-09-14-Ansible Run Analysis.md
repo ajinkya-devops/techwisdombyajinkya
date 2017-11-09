@@ -55,13 +55,13 @@ There are 2 ways in which you can install ARA in your system.
 
     * Clone the repo & do:
 
-        ```yaml
+        ```js
           ansible-playbook Playbook.yml
         ```
     * If Playbook run is successful, you will get:
 
-        ```yaml
-          TASK [ara : Display ara UI URL] *******************************************************
+        ```js
+          TASK [ara : Display ara UI URL] 
           ok: [localhost] => {
           "msg": "Access playbook records at http://YOUR_IP:9191"
           }
