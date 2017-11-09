@@ -2,8 +2,8 @@
 layout: post
 title: ""
 date: 2017-09-14 12:26:40
-image: "/../assets/Post_Images/2017-09-14-Ansible Run Analysis/ara-with-icon.png"
-description: Analysing Ansible Runs with ARA tool.
+image: "/assets/Post_Images/2017-09-14-Ansible Run Analysis/ara-with-icon.png"
+description: Analysing Ansible Runs with ARA tools.
 category: 'devops'
 tags:
 - ansible
