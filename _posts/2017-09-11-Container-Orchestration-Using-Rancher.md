@@ -17,10 +17,10 @@ introduction:
 
 Rancher software consists of **four** major components:
 
-   * Infrastructure Orchestration
-   * Container Orchestration & Scheduling
-   * Application Catalog
-   * Enterprise-Grade Control
+  * Infrastructure Orchestration
+  * Container Orchestration & Scheduling
+  * Application Catalog
+  * Enterprise-Grade Control
 
 ![placeholder](../assets/img/Post_Images/2017-09-11-Container-Orchestration-Using-Rancher/12.png "Rancher UI")
 
@@ -35,14 +35,14 @@ In this tutorial, you'll get to know about Rancher Server Installation, Adding 
 
 * Verify your Docker Installation by
 
-    ```Dockerfile
+```Dockerfile
     abc@xyz:~$docker --version
     Docker version 17.06.1-ce, build 874a737
-    ```
+```
 
 * Now, Install Rancher Server by running its docker container by
 
-    ````shell
+````shell
     abc@xyz:~$docker run -d --restart=unless-stopped -p 8080:8080 rancher/server 
     ````
 Where,
@@ -55,12 +55,13 @@ Where,
 
 * Verify that the container is running by:
 
-    ```bash
+````bash
     abc@xyz:~$docker ps
 
     CONTAINER ID     IMAGE          STATUS            PORTS
     01c0d330c84d  rancher/server  Up 10 Mins  0.0.0.0:8080->8080/tcp
-    ```
+````
+
 ### Step 2 - Accessing Web UI of Rancher Server
 
 The UI and API will be available on the exposed port `8080`
@@ -125,12 +126,12 @@ For this post, we will be creating a host on the same machine where Rancher Ser
 
     * Paste the code into your terminal and hit Enter.
 
-        ```bash
+```bash
         abc@xyz:~$sudo docker run --rm --privileged -v /var/run/docker.sock:/var/run/docker.sock -v /var/lib/rancher:/var/lib/rancher rancher/agent:v1.2.6 http://172.17.0.2:8080/v1/scripts/54BF6EC0C28EF33BF9A7:1483142400000:FQ3kgZ3w5lKRkeynl9m8SysKWs
-        ```
+```
     * If everything goes well, you will get an output like:
 
-        ```bash
+```bash
         INFO: Running Agent Registration Process, CATTLE_URL=http://172.17.0.2:8080/v1
         INFO: Attempting to connect to: http://172.17.0.2:8080/v1
         INFO: http://172.17.0.2:8080/v1 is accessible
@@ -149,7 +150,7 @@ For this post, we will be creating a host on the same machine where Rancher Ser
         INFO: ENV: DETECTED_CATTLE_AGENT_IP=172.17.0.3
         INFO: ENV: RANCHER_AGENT_IMAGE=rancher/agent:v1.2.6
         INFO: Launched Rancher Agent: 8f5ce937fff4c179f26e64aea0887f40839f2d201581f66bf76009ae84c71477
-        ```
+```
     * Within a few minutes, you'll see your new host in the Rancher UI. You will also get some basic information about the host such as its IP address, processor clock-speed, memory, and storage.
 
 ![placeholder](../assets/img/Post_Images/2017-09-11-Container-Orchestration-Using-Rancher/6.png "Rancher UI")
