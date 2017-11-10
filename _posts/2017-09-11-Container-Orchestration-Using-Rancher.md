@@ -2,7 +2,7 @@
 layout: post
 title: "Container Orchestration using Rancher"
 date: 2017-09-11 09:52:28
-image: '../assets/img/Post_Images/2017-09-11-Container-Orchestration-Using-Rancher/11.jpg'
+image: '../img/Post_Images/2017-09-11-Container-Orchestration-Using-Rancher/11.jpg'
 description: Orchestrating Docker containers using Rancher.
 category: 'devops'
 tags:
@@ -35,7 +35,7 @@ In this tutorial, you'll get to know about Rancher Server Installation, Adding 
 
 * Verify your Docker Installation by
 
-```Dockerfile
+```shell
     abc@xyz:~$docker --version
     Docker version 17.06.1-ce, build 874a737
 ```
@@ -44,7 +44,8 @@ In this tutorial, you'll get to know about Rancher Server Installation, Adding 
 
 ````shell
     abc@xyz:~$docker run -d --restart=unless-stopped -p 8080:8080 rancher/server 
-    ````
+````
+
 Where,
 
     * `d`: Running the container in Detached mode
