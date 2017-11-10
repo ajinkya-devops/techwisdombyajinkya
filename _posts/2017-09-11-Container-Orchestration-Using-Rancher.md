@@ -2,7 +2,7 @@
 layout: post
 title: "Container Orchestration using Rancher"
 date: 2017-09-11 09:52:28
-image: '../assets/img/Post_Images/2017-09-11-Container-Orchestration-Using-Rancher/11.png'
+image: '../assets/img/Post_Images/2017-09-11-Container-Orchestration-Using-Rancher/11.jpg'
 description: Orchestrating Docker containers using Rancher.
 category: 'devops'
 tags:
@@ -17,50 +17,50 @@ introduction:
 
 Rancher software consists of **four** major components:
 
-    * Infrastructure Orchestration
-    * Container Orchestration & Scheduling
-    * Application Catalog
-    * Enterprise-Grade Control
+   * Infrastructure Orchestration
+   * Container Orchestration & Scheduling
+   * Application Catalog
+   * Enterprise-Grade Control
 
 ![placeholder](../assets/img/Post_Images/2017-09-11-Container-Orchestration-Using-Rancher/12.png "Rancher UI")
 
 In this tutorial, you'll get to know about Rancher Server Installation, Adding Custom Hosts to the Rancher Server, Creating Environments & much more!
 
-## Pre-requisites
+### Pre-requisites
 
-    1. A Linux machine of any configuration with an access to Interne. t.
-    2. Docker Installed on the same machine. (If you don't know how to, visit <a href="https://docs.docker.com/engine/installation/linux/docker-ce/ubuntu/">HERE</a> and install it.
+1. A Linux machine of any configuration with an access to Interne. t.
+2. Docker Installed on the same machine. (If you don't know how to, visit <a href="https://docs.docker.com/engine/installation/linux/docker-ce/ubuntu/">HERE</a> and install it.
 
 ### Step 1 - Installing Rancher Server
 
-    * Verify your Docker Installation by
+* Verify your Docker Installation by
 
-        ```bash
-        abc@xyz:~$docker --version
-        Docker version 17.06.1-ce, build 874a737
-        ```
+    ```Dockerfile
+    abc@xyz:~$docker --version
+    Docker version 17.06.1-ce, build 874a737
+    ```
 
-    * Now, Install Rancher Server by running its docker container by
+* Now, Install Rancher Server by running its docker container by
 
-        ```bash
-        abc@xyz:~$docker run -d --restart=unless-stopped -p 8080:8080 rancher/server 
-        ```
-    Where,
+    ````shell
+    abc@xyz:~$docker run -d --restart=unless-stopped -p 8080:8080 rancher/server 
+    ````
+Where,
 
-        * `d`: Running the container in Detached mode
-        * `--restart`=unless-stopped: Always restart the container regardless of the exit status
-        * `-p 8080:8080` - Expose port 8080 of the container to the port 8080 on the host
-        * `rancher/server`: Name of the Rancher Server Image
-        * It will first pull the `*rancher/server*` image & then spin up the container on it.
+    * `d`: Running the container in Detached mode
+    * `--restart`=unless-stopped: Always restart the container regardless of the exit status
+    * `-p 8080:8080` - Expose port 8080 of the container to the port 8080 on the host
+    * `rancher/server`: Name of the Rancher Server Image
+    * It will first pull the `*rancher/server*` image & then spin up the container on it.
 
-    * Verify that the container is running by:
+* Verify that the container is running by:
 
-        ```bash
-        abc@xyz:~$docker ps
+    ```bash
+    abc@xyz:~$docker ps
 
-        CONTAINER ID     IMAGE          STATUS            PORTS
-        01c0d330c84d  rancher/server  Up 10 Mins  0.0.0.0:8080->8080/tcp
-        ```
+    CONTAINER ID     IMAGE          STATUS            PORTS
+    01c0d330c84d  rancher/server  Up 10 Mins  0.0.0.0:8080->8080/tcp
+    ```
 ### Step 2 - Accessing Web UI of Rancher Server
 
 The UI and API will be available on the exposed port `8080`
