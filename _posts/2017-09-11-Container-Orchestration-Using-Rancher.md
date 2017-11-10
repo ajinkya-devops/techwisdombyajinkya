@@ -2,7 +2,8 @@
 layout: post
 title: "Container Orchestration using Rancher"
 date: 2017-09-11 09:52:28
-image: '../img/Post_Images/2017-09-11-Container-Orchestration-Using-Rancher/11.jpg'
+initpath: 'assets/img/Post_Images/2017-09-11-Container-Orchestration-Using-Rancher/11.jpg'
+image: '../assets/img/Post_Images/2017-09-11-Container-Orchestration-Using-Rancher/11.jpg'
 description: Orchestrating Docker containers using Rancher.
 category: 'devops'
 tags:
