@@ -47,13 +47,13 @@ In this tutorial, you'll get to know about Rancher Server Installation, Adding 
     abc@xyz:~$docker run -d --restart=unless-stopped -p 8080:8080 rancher/server 
 ````
 
-* Where,
+Where,
 
-    * `d`: Running the container in Detached mode
-    * `--restart`=unless-stopped: Always restart the container regardless of the exit status
-    * `-p 8080:8080` - Expose port 8080 of the container to the port 8080 on the host
-    * `rancher/server`: Name of the Rancher Server Image
-    * It will first pull the `*rancher/server*` image & then spin up the container on it.
+   * `d`: Running the container in Detached mode
+   * `--restart`=unless-stopped: Always restart the container regardless of the exit status
+   * `-p 8080:8080` - Expose port 8080 of the container to the port 8080 on the host
+   * `rancher/server`: Name of the Rancher Server Image
+   * It will first pull the `*rancher/server*` image & then spin up the container on it.
 
 * Verify that the container is running by:
 
@@ -63,6 +63,7 @@ In this tutorial, you'll get to know about Rancher Server Installation, Adding 
     CONTAINER ID     IMAGE          STATUS            PORTS
     01c0d330c84d  rancher/server  Up 10 Mins  0.0.0.0:8080->8080/tcp
 ````
+
 
 ### Step 2 - Accessing Web UI of Rancher Server
 
