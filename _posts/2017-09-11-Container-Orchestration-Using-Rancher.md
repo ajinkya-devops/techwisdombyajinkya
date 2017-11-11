@@ -50,8 +50,8 @@ In this tutorial, you'll get to know about Rancher Server Installation, Adding 
 Where,
 
    * `d`: Running the container in Detached mode
-   * `--restart`=unless-stopped: Always restart the container regardless of the exit status
-   * `-p 8080:8080` - Expose port 8080 of the container to the port 8080 on the host
+ * `--restart`=unless-stopped: Always restart the container regardless of the exit status
+  * `-p 8080:8080` - Expose port 8080 of the container to the port 8080 on the host
    * `rancher/server`: Name of the Rancher Server Image
    * It will first pull the `*rancher/server*` image & then spin up the container on it.
 
@@ -89,7 +89,6 @@ There are many ways to set Access Control, for now, we will use a Local acco
     * Select ***Local***
     * Enter ***Username & Password***
     * Click on ***Enable Access Control***
-
 ![placeholder](../assets/img/Post_Images/2017-09-11-Container-Orchestration-Using-Rancher/2.png "Rancher UI")
 
 That's it! Local Authentication will now be enabled with your newly created User.
@@ -98,12 +97,12 @@ That's it! Local Authentication will now be enabled with your newly created User
 
 For this post, we will be creating a host on the same machine where Rancher Server resides. Practically, you will rarely have such situation.
 
-* 
-    * Go to ***Infrastructure > Hosts***
-    * Click on ***Add Host***
-    * Click on ***Something else*** to enter an IP address to use for UI. Now, for this demo, we are setting the Rancher Server & Hosts on the same machine.
+
+ * Go to ***Infrastructure > Hosts***
+ * Click on ***Add Host***
+ * Click on ***Something else*** to enter an IP address to use for UI. Now, for this demo, we are setting the Rancher Server & Hosts on the same machine.
     So I will use ***Docker Container IP*** for Rancher Server so that we can add a host on the same machine.
-    * To get an IP, type:
+ * To get an IP, type:
 
         ```bash
         abc@xyz:~$docker exec -it CONTAINER_NAME /bin/bash
