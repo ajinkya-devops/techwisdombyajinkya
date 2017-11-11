@@ -47,13 +47,13 @@ In this tutorial, you'll get to know about Rancher Server Installation, Adding 
     abc@xyz:~$docker run -d --restart=unless-stopped -p 8080:8080 rancher/server 
 ````
 
-Where,
+* Where,
 
- * `d`: Running the container in Detached mode
-  * `--restart`=unless-stopped: Always restart the container regardless of the exit status
-   * `-p 8080:8080` - Expose port 8080 of the container to the port 8080 on the host
-* `rancher/server`: Name of the Rancher Server Image
-* It will first pull the `*rancher/server*` image & then spin up the container on it.
+    * `d`: Running the container in Detached mode
+    * `--restart`=unless-stopped: Always restart the container regardless of the exit status
+    * `-p 8080:8080` - Expose port 8080 of the container to the port 8080 on the host
+    * `rancher/server`: Name of the Rancher Server Image
+    * It will first pull the `*rancher/server*` image & then spin up the container on it.
 
 * Verify that the container is running by:
 
@@ -83,11 +83,11 @@ You will see a warning icon next to the **ADMIN** menu item at the top of the 
 **Access Control** is how Rancher limits the users who have the access permissions to your Rancher instance. By default, Access Control is **not configured**. This means anyone who has the IP address of your Rancher instance will be able to use it and access the API. Your Rancher instance is **open to the public!**
 
 There are many ways to set Access Control, for now, we will use a Local account.
-
-* Go to the ***Admin > Access Control***
-* Select ***Local***
-* Enter ***Username & Password***
-* Click on ***Enable Access Control***
+* 
+    * Go to the ***Admin > Access Control***
+    * Select ***Local***
+    * Enter ***Username & Password***
+    * Click on ***Enable Access Control***
 
 ![placeholder](../assets/img/Post_Images/2017-09-11-Container-Orchestration-Using-Rancher/2.png "Rancher UI")
 
@@ -97,19 +97,20 @@ That's it! Local Authentication will now be enabled with your newly created User
 
 For this post, we will be creating a host on the same machine where Rancher Server resides. Practically, you will rarely have such situation.
 
-  * Go to ***Infrastructure > Hosts***
-* Click on ***Add Host***
-* Click on ***Something else*** to enter an IP address to use for UI. Now, for this demo, we are setting the Rancher Server & Hosts on the same machine.
-So I will use ***Docker Container IP*** for Rancher Server so that we can add a host on the same machine.
-* To get an IP, type:
+* 
+    * Go to ***Infrastructure > Hosts***
+    * Click on ***Add Host***
+    * Click on ***Something else*** to enter an IP address to use for UI. Now, for this demo, we are setting the Rancher Server & Hosts on the same machine.
+    So I will use ***Docker Container IP*** for Rancher Server so that we can add a host on the same machine.
+    * To get an IP, type:
 
         ```bash
         abc@xyz:~$docker exec -it CONTAINER_NAME /bin/bash
         root@YOUR_CONTAINER_ID:/# ifconfig
         ```
-* Copy the `eth0:inet addr`
-* Click on Something else and put that ***IP:8080*** in the text box.
-* Click on ***Save***. 
+    * Copy the `eth0:inet addr`
+    * Click on Something else and put that ***IP:8080*** in the text box.
+    * Click on ***Save***. 
 
 ![placeholder](../assets/img/Post_Images/2017-09-11-Container-Orchestration-Using-Rancher/3.png "Rancher UI")
 
