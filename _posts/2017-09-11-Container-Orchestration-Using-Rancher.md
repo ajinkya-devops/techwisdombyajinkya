@@ -47,7 +47,7 @@ In this tutorial, you'll get to know about Rancher Server Installation, Adding 
     abc@xyz:~$docker run -d --restart=unless-stopped -p 8080:8080 rancher/server 
 ````
 
-Where,
+Wherse,
 
    * `d`: Running the container in Detached mode
  * `--restart`=unless-stopped: Always restart the container regardless of the exit status
@@ -84,11 +84,11 @@ You will see a warning icon next to the **ADMIN** menu item at the top of the 
 **Access Control** is how Rancher limits the users who have the access permissions to your Rancher instance. By default, Access Control is **not configured**. This means anyone who has the IP address of your Rancher instance will be able to use it and access the API. Your Rancher instance is **open to the public!**
 
 There are many ways to set Access Control, for now, we will use a Local account.
-* 
-    * Go to the ***Admin > Access Control***
-    * Select ***Local***
-    * Enter ***Username & Password***
-    * Click on ***Enable Access Control***
+
+ * Go to the ***Admin > Access Control***
+ * Select ***Local***
+ * Enter ***Username & Password***
+ * Click on ***Enable Access Control***
 ![placeholder](../assets/img/Post_Images/2017-09-11-Container-Orchestration-Using-Rancher/2.png "Rancher UI")
 
 That's it! Local Authentication will now be enabled with your newly created User.
