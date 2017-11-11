@@ -49,11 +49,11 @@ In this tutorial, you'll get to know about Rancher Server Installation, Adding 
 
 Where,
 
-    * `d`: Running the container in Detached mode
-    * `--restart`=unless-stopped: Always restart the container regardless of the exit status
-    * `-p 8080:8080` - Expose port 8080 of the container to the port 8080 on the host
-    * `rancher/server`: Name of the Rancher Server Image
-    * It will first pull the `*rancher/server*` image & then spin up the container on it.
+ * `d`: Running the container in Detached mode
+  * `--restart`=unless-stopped: Always restart the container regardless of the exit status
+   * `-p 8080:8080` - Expose port 8080 of the container to the port 8080 on the host
+* `rancher/server`: Name of the Rancher Server Image
+* It will first pull the `*rancher/server*` image & then spin up the container on it.
 
 * Verify that the container is running by:
 
@@ -69,7 +69,7 @@ Where,
 The UI and API will be available on the exposed port `8080`
 
 Navigate to the following URL: `http://<SERVER_IP>:8080`
-The **<SERVER_IP>** is the public IP address of the host that is running Rancher server. (In our case it will be localhost initially but later we will change it with an actual IP)
+The `<SERVER_IP>` is the public IP address of the host that is running Rancher server. (In our case it will be localhost initially but later we will change it with an actual IP)
 
 ![placeholder](../assets/img/Post_Images/2017-09-11-Container-Orchestration-Using-Rancher/1.png "Rancher UI")
 
@@ -80,14 +80,14 @@ You will see a warning icon next to the **ADMIN** menu item at the top of the 
 
 ![placeholder](../assets/img/Post_Images/2017-09-11-Container-Orchestration-Using-Rancher/10.png "Rancher UI")
 
-***Access Control*** is how Rancher limits the users who have the access permissions to your Rancher instance. By default, Access Control is ***not configured***. This means anyone who has the IP address of your Rancher instance will be able to use it and access the API. Your Rancher instance is ***open to the public!***
+**Access Control** is how Rancher limits the users who have the access permissions to your Rancher instance. By default, Access Control is **not configured**. This means anyone who has the IP address of your Rancher instance will be able to use it and access the API. Your Rancher instance is **open to the public!**
 
 There are many ways to set Access Control, for now, we will use a Local account.
 
-    * Go to the ***Admin > Access Control***
-    * Select ***Local***
-    * Enter ***Username & Password***
-    * Click on ***Enable Access Control***
+* Go to the ***Admin > Access Control***
+* Select ***Local***
+* Enter ***Username & Password***
+* Click on ***Enable Access Control***
 
 ![placeholder](../assets/img/Post_Images/2017-09-11-Container-Orchestration-Using-Rancher/2.png "Rancher UI")
 
@@ -97,41 +97,42 @@ That's it! Local Authentication will now be enabled with your newly created User
 
 For this post, we will be creating a host on the same machine where Rancher Server resides. Practically, you will rarely have such situation.
 
-    * Go to ***Infrastructure > Hosts***
-    * Click on ***Add Host***
-    * Click on ***Something else*** to enter an IP address to use for UI. Now, for this demo, we are setting the Rancher Server & Hosts on the same machine.
-    So I will use ***Docker Container IP*** for Rancher Server so that we can add a host on the same machine.
-    * To get an IP, type:
+  * Go to ***Infrastructure > Hosts***
+* Click on ***Add Host***
+* Click on ***Something else*** to enter an IP address to use for UI. Now, for this demo, we are setting the Rancher Server & Hosts on the same machine.
+So I will use ***Docker Container IP*** for Rancher Server so that we can add a host on the same machine.
+* To get an IP, type:
 
         ```bash
         abc@xyz:~$docker exec -it CONTAINER_NAME /bin/bash
         root@YOUR_CONTAINER_ID:/# ifconfig
         ```
-    * Copy the `eth0:inet addr`
-    * Click on Something else and put that ***IP:8080*** in the text box.
-    * Click on ***Save***. 
+* Copy the `eth0:inet addr`
+* Click on Something else and put that ***IP:8080*** in the text box.
+* Click on ***Save***. 
 
 ![placeholder](../assets/img/Post_Images/2017-09-11-Container-Orchestration-Using-Rancher/3.png "Rancher UI")
 
-    * Now just enter the address `http://<SERVER_IP>:8080`
-    This time you will get a Login screen instead of a direct access. Login with your details.  
+* Now just enter the address `http://<SERVER_IP>:8080`
+This time you will get a Login screen instead of a direct access. Login with your details.  
 
 ![placeholder](../assets/img/Post_Images/2017-09-11-Container-Orchestration-Using-Rancher/4.png "Rancher UI")
     
-    * Again go back to ***Infrastructure > Hosts***
-    * Click on ***Add Host***
-    * There are various ways to which you can add new hosts, for this demo we will add a custom host running on the same machine.
-    * Select ***Custom***
-    * Copy the generated code from ***Step 5***.   
+* Again go back to ***Infrastructure > Hosts***
+* Click on ***Add Host***
+* There are various ways to which you can add new hosts, for this demo we will add a custom host running on the same machine.
+* Select ***Custom***
+* Copy the generated code from ***Step 5***.   
 
 ![placeholder](../assets/img/Post_Images/2017-09-11-Container-Orchestration-Using-Rancher/5.png "Rancher UI")
 
-    * Paste the code into your terminal and hit Enter.
+* Paste the code into your terminal and hit Enter.
 
 ```bash
         abc@xyz:~$sudo docker run --rm --privileged -v /var/run/docker.sock:/var/run/docker.sock -v /var/lib/rancher:/var/lib/rancher rancher/agent:v1.2.6 http://172.17.0.2:8080/v1/scripts/54BF6EC0C28EF33BF9A7:1483142400000:FQ3kgZ3w5lKRkeynl9m8SysKWs
 ```
-    * If everything goes well, you will get an output like:
+
+* If everything goes well, you will get an output like:
 
 ```bash
         INFO: Running Agent Registration Process, CATTLE_URL=http://172.17.0.2:8080/v1
@@ -153,13 +154,13 @@ For this post, we will be creating a host on the same machine where Rancher Ser
         INFO: ENV: RANCHER_AGENT_IMAGE=rancher/agent:v1.2.6
         INFO: Launched Rancher Agent: 8f5ce937fff4c179f26e64aea0887f40839f2d201581f66bf76009ae84c71477
 ```
-    * Within a few minutes, you'll see your new host in the Rancher UI. You will also get some basic information about the host such as its IP address, processor clock-speed, memory, and storage.
+* Within a few minutes, you'll see your new host in the Rancher UI. You will also get some basic information about the host such as its IP address, processor clock-speed, memory, and storage.
 
 ![placeholder](../assets/img/Post_Images/2017-09-11-Container-Orchestration-Using-Rancher/6.png "Rancher UI")
 
 ### Step 5 - Monitoring your Hosts
 
-Once your host is added and is ***Active***, you can click on the name of the host to open up the ***Monitoring*** window.
+Once your host is added and is **Active**, you can click on the name of the host to open up the **Monitoring** window.
 
 ![placeholder](../assets/img/Post_Images/2017-09-11-Container-Orchestration-Using-Rancher/7.png "Rancher UI")
 
