@@ -2,8 +2,8 @@
 layout: post
 title: "Docker for Databases (Part 1)"
 date: 2017-08-10 05:35:32
-initpath: 'assets/img/Post_Images/2017-08-10-docker-for-databases-(part-1)/docker_database.png'
-image: '../assets/img/Post_Images/2017-08-10-docker-for-databases-(part-1)/docker_database.png'
+initpath: 'assets/img/Post_Images/2017-08-10-docker-for-databases-(part-1)/docker_database.jpg'
+image: '../assets/img/Post_Images/2017-08-10-docker-for-databases-(part-1)/docker_database.jpg'
 description: A brief introduction to working with the Databases and Volumes in Docker.
 category: 'devops'
 tags:
@@ -40,7 +40,7 @@ There can be 2 approaches of running databases in a containerized environment.
 
 ####1. Single Node Database with Database and Client in separate containers on the same node.
 
-![placeholder](<../assets/img/Post_Images/2017-08-10-docker-for-databases-(part-1)/docker2.png "Docker with Databases">)
+![placeholder](<../assets/img/Post_Images/2017-08-10-docker-for-databases-(part-1)/docker2.png> "Docker with Databases")
 
 In this setup, there are actually two clients. One is containerized and the other is executing from the container host directly. The database is also containerized but isolated by namespacing as well.
 
@@ -50,7 +50,7 @@ Some container coordination frameworks, such as Kubernetes, attempt to simplify 
 
 ####2. Multiple Node Deployment where Database and Client are separated:
 
-![placeholder](../assets/img/Post_Images/2017-08-10-docker-for-databases-(part-1)/1.png "Jenkins Git")
+![placeholder](<../assets/img/Post_Images/2017-08-10-docker-for-databases-(part-1)/docker3.png> "Jenkins Git")
 
 In this scenario, the database server and clients are on different nodes and require network access to communicate. In this case, you must ensure that Docker not only exposes a port for the database container but that a port is also exposed to the network so other clients can communicate with it.
 
