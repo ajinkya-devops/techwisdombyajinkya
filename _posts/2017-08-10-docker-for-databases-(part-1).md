@@ -2,7 +2,8 @@
 layout: post
 title: "Docker for Databases (Part 1)"
 date: 2017-08-10 05:35:32
-image: ''
+initpath: 'assets/img/Post_Images/2017-08-10-docker-for-databases-(part-1)/docker_database.png'
+image: '../assets/img/Post_Images/2017-08-10-docker-for-databases-(part-1)/docker_database.png'
 description: A brief introduction to working with the Databases and Volumes in Docker.
 category: 'devops'
 tags:
@@ -29,7 +30,7 @@ In `Part 2`, we will see a tutorial/case study of using **MySQL** in Docker.
 
 ### Databases in Containers
 
-![placeholder](../assets/img/Post_Images/2017-08-10-docker-for-databases-(part-1\)/1.png "Docker with Databases")
+![placeholder](<../assets/img/Post_Images/2017-08-10-docker-for-databases-(part-1)/docker1.png>)
 
 In the case of a database server, retaining your data can be critical. The default storage for containers themselves is not persistent but can be with a little planning.
 
@@ -39,7 +40,7 @@ There can be 2 approaches of running databases in a containerized environment.
 
 ####1. Single Node Database with Database and Client in separate containers on the same node.
 
-![placeholder](../assets/img/Post_Images/2017-08-10-docker-for-databases-(part-1\)/1.png "Docker with Databases")
+![placeholder](<../assets/img/Post_Images/2017-08-10-docker-for-databases-(part-1)/docker2.png "Docker with Databases">)
 
 In this setup, there are actually two clients. One is containerized and the other is executing from the container host directly. The database is also containerized but isolated by namespacing as well.
 
