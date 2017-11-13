@@ -2,7 +2,7 @@
 layout: post
 title: "Docker for Databases (Part 1)"
 date: 2017-08-10 05:35:32
-initpath: 'assets/img/Post_Images/2017-08-10-docker-for-databases-(part-1)/docker_database.jpg'
+initpath: <'assets/img/Post_Images/2017-08-10-docker-for-databases-(part-1)/docker_database.jpg'>
 image: '../assets/img/Post_Images/2017-08-10-docker-for-databases-(part-1)/docker_database.jpg'
 description: A brief introduction to working with the Databases and Volumes in Docker.
 category: 'devops'
