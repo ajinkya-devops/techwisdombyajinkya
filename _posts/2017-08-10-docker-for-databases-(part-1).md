@@ -38,7 +38,7 @@ Note in the figure, how the container host, like the traditional Linux deploymen
 
 There can be 2 approaches of running databases in a containerized environment.
 
-####1. Single Node Database with Database and Client in separate containers on the same node.
+#### 1. Single Node Database with Database and Client in separate containers on the same node.
 
 ![placeholder](<../assets/img/Post_Images/2017-08-10-docker-for-databases-(part-1)/docker2.png> "Docker with Databases")
 
@@ -48,7 +48,7 @@ The database client executing on the host can still communicate with the contain
 
 Some container coordination frameworks, such as Kubernetes, attempt to simplify this use case for containers co-located on a single node by sharing the network port space between node-local containers.
 
-####2. Multiple Node Deployment where Database and Client are separated:
+####  2. Multiple Node Deployment where Database and Client are separated:
 
 ![placeholder](<../assets/img/Post_Images/2017-08-10-docker-for-databases-(part-1)/docker3.png> "Jenkins Git")
 
@@ -58,9 +58,9 @@ Notice how in this scenario, the database server is still containerized but the 
 
 You then also need to ensure that you perform the port mapping when the container runs using either the -P or -p flags.
 
-###Things to Consider
+### Things to Consider
 
-* Ensure that your container environment has enough CPU and memory resources. If your container environment does not have enough resources, databases will suffer.
+- Ensure that your container environment has enough CPU and memory resources. If your container environment does not have enough resources, databases will suffer.
 
 * Keep container as secure as possible. With Docker, it’s simple to set up an isolated network that only the containers for a given application can access. The database can be completely isolated from the external network this way.
 
@@ -68,7 +68,7 @@ You then also need to ensure that you perform the port mapping when the containe
 
 * Rather, try to keep single databases to a DBMS for smaller applications. Treat databases more like an application component rather than as a separate environment that hosts a database. This scenario works well too for open source databases given there are no restrictions on how many instances one can spin up.
 
-###Conclusion
+### Conclusion
 
 For containers and databases, the bottom line is to be cautious when considering containers for databases. This is one of those areas where containers are probably not the best choice in many cases, however, sometimes the container benefits outweigh the costs of using containers for smaller/moderate applications.
 
