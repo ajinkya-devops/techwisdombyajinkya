@@ -2,7 +2,7 @@
 layout: post
 title: "[Tutorial] Jenkins Integration with Git"
 date: 2017-02-17 04:16:48
-initpath: assets/img/Post_Images/2017-02-17-[tutorial]-jenkins-integration-with-git/2.png
+initpath: 'assets/img/Post_Images/2017-02-17-[tutorial]-jenkins-integration-with-git/2.png'
 image: ''
 description: Learning Git & Jenkins 
 category: 'DevOps'
