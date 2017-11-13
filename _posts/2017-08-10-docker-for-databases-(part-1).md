@@ -30,11 +30,14 @@ In `Part 2`, we will see a tutorial/case study of using **MySQL** in Docker.
 
 ### Databases in Containers
 
-<img align="right" width="200" height="183" src="../assets/img/Post_Images/2017-08-10-docker-for-databases-(part-1)/docker1.png">
+<div>
+<img align="right" width="300" height="300" src="../assets/img/Post_Images/2017-08-10-docker-for-databases-(part-1)/docker1.png">   
 
 In the case of a database server, retaining your data can be critical. The default storage for containers themselves is not persistent but can be with a little planning.
 
 Note in the figure, how the container host, like the traditional Linux deployment, has enterprise storage associated with it. Through the use of docker volumes, we can assign storage to containers and those volumes will persist regardless of the state of the container.
+
+</div>
 
 There can be 2 approaches of running databases in a containerized environment.
 
