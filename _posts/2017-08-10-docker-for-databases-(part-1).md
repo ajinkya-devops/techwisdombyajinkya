@@ -29,6 +29,8 @@ In `Part 2`, we will see a tutorial/case study of using **MySQL** in Docker.
 
 ### Databases in Containers
 
+![placeholder](../assets/img/Post_Images/2017-08-10-docker-for-databases-(part-1\)/1.png "Docker with Databases")
+
 In the case of a database server, retaining your data can be critical. The default storage for containers themselves is not persistent but can be with a little planning.
 
 Note in the figure, how the container host, like the traditional Linux deployment, has enterprise storage associated with it. Through the use of docker volumes, we can assign storage to containers and those volumes will persist regardless of the state of the container.
@@ -36,6 +38,9 @@ Note in the figure, how the container host, like the traditional Linux deploymen
 There can be 2 approaches of running databases in a containerized environment.
 
 ####1. Single Node Database with Database and Client in separate containers on the same node.
+
+![placeholder](../assets/img/Post_Images/2017-08-10-docker-for-databases-(part-1\)/1.png "Docker with Databases")
+
 In this setup, there are actually two clients. One is containerized and the other is executing from the container host directly. The database is also containerized but isolated by namespacing as well.
 
 The database client executing on the host can still communicate with the containerized database server via TCP/IP because Docker has an internal network for containers to communication with each other and the host. Once an interconnection mechanism has been established a container developer must ensure that service containers are properly configured to allow access to these connections.
@@ -43,6 +48,8 @@ The database client executing on the host can still communicate with the contain
 Some container coordination frameworks, such as Kubernetes, attempt to simplify this use case for containers co-located on a single node by sharing the network port space between node-local containers.
 
 ####2. Multiple Node Deployment where Database and Client are separated:
+
+![placeholder](../assets/img/Post_Images/2017-08-10-docker-for-databases-(part-1)/1.png "Jenkins Git")
 
 In this scenario, the database server and clients are on different nodes and require network access to communicate. In this case, you must ensure that Docker not only exposes a port for the database container but that a port is also exposed to the network so other clients can communicate with it.
 
