@@ -7,9 +7,9 @@ image: '../assets/img/Post_Images/2017-02-17-[tutorial]-jenkins-integration-with
 description: Learning Git & Jenkins 
 category: 'devops'
 tags:
--Jenkins
--Git
--Tutorial
+- Jenkins
+- Git
+- Tutorial
 twitter_text:
 introduction:
 ---
