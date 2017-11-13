@@ -3,14 +3,13 @@ layout: post
 title: "[Tutorial] Jenkins Integration with Git"
 date: 2017-02-17 04:16:48
 initpath: 'assets/img/Post_Images/2017-02-17-[tutorial]-jenkins-integration-with-git/2.png'
-image: ''
+image: '../assets/img/Post_Images/2017-02-17-[tutorial]-jenkins-integration-with-git/2.png'
 description: Learning Git & Jenkins 
-category: 'DevOps'
+category: 'devops'
 tags:
 -Jenkins
 -Git
 -Tutorial
-
 twitter_text:
 introduction:
 ---
