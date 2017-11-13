@@ -2,7 +2,7 @@
 layout: post
 title: "Docker for Databases (Part 1)"
 date: 2017-08-10 05:35:32
-initpath: <'assets/img/Post_Images/2017-08-10-docker-for-databases-(part-1)/docker_database.jpg'>
+initpath: 'assets/img/Post_Images/2017-08-10-docker-for-databases-\(part-1\)/docker_database.jpg'
 image: '../assets/img/Post_Images/2017-08-10-docker-for-databases-(part-1)/docker_database.jpg'
 description: A brief introduction to working with the Databases and Volumes in Docker.
 category: 'devops'
@@ -30,7 +30,7 @@ In `Part 2`, we will see a tutorial/case study of using **MySQL** in Docker.
 
 ### Databases in Containers
 
-<p>
+<p align="justify">
 <img align="right" width="300" height="300" src="../assets/img/Post_Images/2017-08-10-docker-for-databases-(part-1)/docker1.png">   
 
 In the case of a database server, retaining your data can be critical. The default storage for containers themselves is not persistent but can be with a little planning.
