@@ -52,10 +52,12 @@ Note in the figure, how the container host, like the traditional Linux deploymen
 
 
 <p align="justify">
-In this setup, there are actually two clients. One is containerized and the other is executing from the container host directly. The database is also containerized but isolated by namespacing as well.
+In this setup, there are actually two clients. One is containerized and the other is executing from the container host directly. The database is also containerized but isolated by namespacing as well.</p>
 
-The database client executing on the host can still communicate with the containerized database server via TCP/IP because Docker has an internal network for containers to communication with each other and the host. Once an interconnection mechanism has been established a container developer must ensure that service containers are properly configured to allow access to these connections.
+<p align="justify">
+The database client executing on the host can still communicate with the containerized database server via TCP/IP because Docker has an internal network for containers to communication with each other and the host. Once an interconnection mechanism has been established a container developer must ensure that service containers are properly configured to allow access to these connections. </p>
 
+<p align="justify">
 Some container coordination frameworks, such as Kubernetes, attempt to simplify this use case for containers co-located on a single node by sharing the network port space between node-local containers.
 </p>
 
