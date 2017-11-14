@@ -17,6 +17,7 @@ introduction:
 Docker containers were created with dynamic data in mind. This meant that, out of the box, Docker containers did not know how to deal with persistent data such as large databases.
 
 </p>
+
 <p align="justify">
 **Two workarounds** were initially used to make Docker containers work with databases. The Docker volume API was later introduced to deal with persistent data natively.
 
@@ -24,6 +25,7 @@ Docker containers were created with dynamic data in mind. This meant that, out o
 `Part 1` of this blog post will contain a brief introduction to working with the Databases and Volumes in Docker.
 
 </p>
+
 <p align="justify">
 
 In `Part 2`, we will see a tutorial/case study of using **MySQL** in Docker.
