@@ -74,16 +74,16 @@ Notice how in this scenario, the database server is still containerized but the 
 <p align="justify">
 You then also need to ensure that you perform the port mapping when the container runs using either the <code>-P</code> or <code>-p</code> flags. </p>
 
-
+<br>
 ### Things to Consider
 <ul>
-<li>Ensure that your container environment has enough CPU and memory resources. If your container environment does not have enough resources, databases will suffer. </li>
+<li><p align="justify">Ensure that your container environment has enough CPU and memory resources. If your container environment does not have enough resources, databases will suffer. </p></li>
 
-<li>Keep container as secure as possible. With Docker, it’s simple to set up an isolated network that only the containers for a given application can access. The database can be completely isolated from the external network this way. </li>
+<li><p align="justify">Keep container as secure as possible. With Docker, it’s simple to set up an isolated network that only the containers for a given application can access. The database can be completely isolated from the external network this way. </p></li>
 
-<li>Don’t try to recreate your database infrastructure using containers as a replacement for virtual machines or physical machines. This is especially true for applications whose SLA is not mission critical. </li>
+<li><p align="justify">Don’t try to recreate your database infrastructure using containers as a replacement for virtual machines or physical machines. This is especially true for applications whose SLA is not mission critical. </p> </li>
 
-<li>Rather, try to keep single databases to a DBMS for smaller applications. Treat databases more like an application component rather than as a separate environment that hosts a database. This scenario works well too for open source databases given there are no restrictions on how many instances one can spin up. </li>
+<li><p align="justify">Rather, try to keep single databases to a DBMS for smaller applications. Treat databases more like an application component rather than as a separate environment that hosts a database. This scenario works well too for open source databases given there are no restrictions on how many instances one can spin up. </p></li>
 </ul>
 
 ### Conclusion
@@ -91,5 +91,5 @@ You then also need to ensure that you perform the port mapping when the containe
 <p align="justify">
 For containers and databases, the bottom line is to be cautious when considering containers for databases. This is one of those areas where containers are probably not the best choice in many cases, however, sometimes the container benefits outweigh the costs of using containers for smaller/moderate applications. </p>
 
-
+<br>
 **`Check out Part 2 of this post to see a tutorial/case study of using MySQL in Docker.`**
