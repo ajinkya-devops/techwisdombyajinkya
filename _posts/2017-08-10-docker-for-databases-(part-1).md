@@ -13,9 +13,10 @@ tags:
 twitter_text:
 introduction:
 ---
-
+<p align="justify">
 Docker containers were created with dynamic data in mind. This meant that, out of the box, Docker containers did not know how to deal with persistent data such as large databases.
 
+</p>
 
 **Two workarounds** were initially used to make Docker containers work with databases. The Docker volume API was later introduced to deal with persistent data natively.
 
@@ -38,7 +39,7 @@ In `Part 2`, we will see a tutorial/case study of using **MySQL** in Docker.
 ### Databases in Containers
 
 <p align="justify">
-<img align="right" width="300" height="350" src="../assets/img/Post_Images/2017-08-10-docker-for-databases-(part-1)/docker1.png">   
+<img align="right" width="300" height="400" src="../assets/img/Post_Images/2017-08-10-docker-for-databases-(part-1)/docker1.png">   
 
 In the case of a database server, retaining your data can be critical. The default storage for containers themselves is not persistent but can be with a little planning.
 
@@ -48,7 +49,7 @@ Note in the figure, how the container host, like the traditional Linux deploymen
 
 </p>
 
-`There can be 2 approaches of running databases in a containerized environment.`
+> There can be 2 approaches of running databases in a containerized environment.`
 
 #### 1. Single Node Database with Database and Client in separate containers on the same node.
 
@@ -63,6 +64,7 @@ The database client executing on the host can still communicate with the contain
 
 Some container coordination frameworks, such as Kubernetes, attempt to simplify this use case for containers co-located on a single node by sharing the network port space between node-local containers.
 
+<br>
 
 ####  2. Multiple Node Deployment where Database and Client are separated:
 
@@ -77,29 +79,18 @@ You then also need to ensure that you perform the port mapping when the containe
 
 ### Things to Consider
 
-<p align="justify">
 
 - Ensure that your container environment has enough CPU and memory resources. If your container environment does not have enough resources, databases will suffer.
 
-</p>
-<br>
-<p align="justify">
 
 * Keep container as secure as possible. With Docker, it’s simple to set up an isolated network that only the containers for a given application can access. The database can be completely isolated from the external network this way.
 
-</p>
-<br>
-<p align="justify">
 
 * Don’t try to recreate your database infrastructure using containers as a replacement for virtual machines or physical machines. This is especially true for applications whose SLA is not mission critical.
 
-</p>
-<br>
-<p align="justify">
 
 * Rather, try to keep single databases to a DBMS for smaller applications. Treat databases more like an application component rather than as a separate environment that hosts a database. This scenario works well too for open source databases given there are no restrictions on how many instances one can spin up.
 
-</p>
 
 ### Conclusion
 
