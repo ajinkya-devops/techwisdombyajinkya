@@ -25,13 +25,12 @@ In `Part 2`, we will see a tutorial/case study of using **MySQL** in Docker.
 </p>
 
 ### History of Workarounds
-
 <p align="justify">
-
 1. The first workaround to the Docker/database problem is to store the database itself elsewhere on an online platform such as the cloud or on a virtual machine. This is essentially a service via a port for legacy applications.
 
-2. Another workaround for dealing with persistent data is to store it on, say, Amazon S3 and retrieve it if the container goes bust. This means the data present within the container is also backed up on the cloud so that it can be retrieved should the container go belly up. Given that databases are typically large files, this can be a very cumbersome process.
-</p>
+2. Another workaround for dealing with persistent data is to store it on, say, Amazon S3 and retrieve it if the container goes bust. This means the data present within the container is also backed up on the cloud so that it can be retrieved should the container go belly up. Given that databases are typically large files, this can be a very cumbersome process. </p>
+
+
 
 ### Databases in Containers
 
