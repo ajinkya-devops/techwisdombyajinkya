@@ -19,13 +19,8 @@ Docker containers were created with dynamic data in mind. This meant that, out o
 
 **Two workarounds** were initially used to make Docker containers work with databases. The Docker volume API was later introduced to deal with persistent data natively.
 
-<br>
-
 
 `Part 1` of this blog post will contain a brief introduction to working with the Databases and Volumes in Docker.
-
-
-<br>
 
 
 In `Part 2`, we will see a tutorial/case study of using **MySQL** in Docker.
@@ -43,7 +38,7 @@ In `Part 2`, we will see a tutorial/case study of using **MySQL** in Docker.
 ### Databases in Containers
 
 <p align="justify">
-<img align="right" width="300" height="320" src="../assets/img/Post_Images/2017-08-10-docker-for-databases-(part-1)/docker1.png">   
+<img align="right" width="300" height="350" src="../assets/img/Post_Images/2017-08-10-docker-for-databases-(part-1)/docker1.png">   
 
 In the case of a database server, retaining your data can be critical. The default storage for containers themselves is not persistent but can be with a little planning.
 
