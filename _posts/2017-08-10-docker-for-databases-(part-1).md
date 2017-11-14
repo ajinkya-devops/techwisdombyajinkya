@@ -76,15 +76,12 @@ You then also need to ensure that you perform the port mapping when the containe
 
 
 ### Things to Consider
-
 <ul>
 <li>Ensure that your container environment has enough CPU and memory resources. If your container environment does not have enough resources, databases will suffer. </li>
 
 <li>Keep container as secure as possible. With Docker, it’s simple to set up an isolated network that only the containers for a given application can access. The database can be completely isolated from the external network this way. <li>
-
 <li>Don’t try to recreate your database infrastructure using containers as a replacement for virtual machines or physical machines. This is especially true for applications whose SLA is not mission critical. <li>
-
-<li>Rather, try to keep single databases to a DBMS for smaller applications. Treat databases more like an application component rather than as a separate environment that hosts a database. This scenario works well too for open source databases given there are no restrictions on how many instances one can spin up.<li>
+<li>Rather, try to keep single databases to a DBMS for smaller applications. Treat databases more like an application component rather than as a separate environment that hosts a database. This scenario works well too for open source databases given there are no restrictions on how many instances one can spin up. <li>
 </ul>
 
 ### Conclusion
