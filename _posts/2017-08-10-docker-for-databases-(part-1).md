@@ -69,26 +69,23 @@ Some container coordination frameworks, such as Kubernetes, attempt to simplify 
 In this scenario, the database server and clients are on different nodes and require network access to communicate. In this case, you must ensure that Docker not only exposes a port for the database container but that a port is also exposed to the network so other clients can communicate with it. </p>
 
 <p align="justify">
-Notice how in this scenario, the database server is still containerized but the client resides on a different node. For network connections, Docker provides a simple directive in the Dockerfile to expose a port from the running container. For example, to create a Postgres DB server container that listens on the default Postgres port, you would add the following line: EXPOSE 8080 </p>
+Notice how in this scenario, the database server is still containerized but the client resides on a different node. For network connections, Docker provides a simple directive in the Dockerfile to expose a port from the running container. For example, to create a Postgres DB server container that listens on the default Postgres port, you would add the following line: <code>EXPOSE 8080</code> </p>
 
 <p align="justify">
-You then also need to ensure that you perform the port mapping when the container runs using either the -P or -p flags. </p>
+You then also need to ensure that you perform the port mapping when the container runs using either the <code>-P</code> or <code>-p</code> flags. </p>
 
 
 ### Things to Consider
 
-<ul style="list-style-type:circle">
+<ul>
 <li>Ensure that your container environment has enough CPU and memory resources. If your container environment does not have enough resources, databases will suffer. </li>
-
 
 <li>Keep container as secure as possible. With Docker, it’s simple to set up an isolated network that only the containers for a given application can access. The database can be completely isolated from the external network this way. <li>
 
-
 <li>Don’t try to recreate your database infrastructure using containers as a replacement for virtual machines or physical machines. This is especially true for applications whose SLA is not mission critical. <li>
 
-
 <li>Rather, try to keep single databases to a DBMS for smaller applications. Treat databases more like an application component rather than as a separate environment that hosts a database. This scenario works well too for open source databases given there are no restrictions on how many instances one can spin up.<li>
-
+</ul>
 
 ### Conclusion
 
