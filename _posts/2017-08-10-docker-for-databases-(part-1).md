@@ -13,45 +13,32 @@ tags:
 twitter_text:
 introduction:
 ---
-<div align="justify">
 
 Docker containers were created with dynamic data in mind. This meant that, out of the box, Docker containers did not know how to deal with persistent data such as large databases.
 
-</div>
-
-<div align="justify">
 
 **Two workarounds** were initially used to make Docker containers work with databases. The Docker volume API was later introduced to deal with persistent data natively.
 
-</div>
-
 <br>
 
-<div align="justify">
 
 `Part 1` of this blog post will contain a brief introduction to working with the Databases and Volumes in Docker.
-</div>
+
 
 <br>
-<p align="justify">
+
 
 In `Part 2`, we will see a tutorial/case study of using **MySQL** in Docker.
 
-</p>
 
 ### History of Workarounds
 
-<p align="justify">
 
 1. The first workaround to the Docker/database problem is to store the database itself elsewhere on an online platform such as the cloud or on a virtual machine. This is essentially a service via a port for legacy applications.
 
-</p>
-<br>
-<p align="justify">
 
 2. Another workaround for dealing with persistent data is to store it on, say, Amazon S3 and retrieve it if the container goes bust. This means the data present within the container is also backed up on the cloud so that it can be retrieved should the container go belly up. Given that databases are typically large files, this can be a very cumbersome process.
 
-</p>
 
 ### Databases in Containers
 
@@ -72,24 +59,15 @@ Note in the figure, how the container host, like the traditional Linux deploymen
 
 ![placeholder](<../assets/img/Post_Images/2017-08-10-docker-for-databases-(part-1)/docker2.png> "Docker with Databases")
 
-<p align="justify">
+
 
 In this setup, there are actually two clients. One is containerized and the other is executing from the container host directly. The database is also containerized but isolated by namespacing as well.
 
-</p>
-<br>
-<p align="justify">
-
 The database client executing on the host can still communicate with the containerized database server via TCP/IP because Docker has an internal network for containers to communication with each other and the host. Once an interconnection mechanism has been established a container developer must ensure that service containers are properly configured to allow access to these connections.
 
-</p>
-<br>
-
-<p align="justify">
 
 Some container coordination frameworks, such as Kubernetes, attempt to simplify this use case for containers co-located on a single node by sharing the network port space between node-local containers.
 
-</p>
 
 ####  2. Multiple Node Deployment where Database and Client are separated:
 
