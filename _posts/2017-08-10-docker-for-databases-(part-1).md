@@ -18,17 +18,17 @@ Docker containers were created with dynamic data in mind. This meant that, out o
 
 <p align="justify"> <b>Two workarounds</b> were initially used to make Docker containers work with databases. The Docker volume API was later introduced to deal with persistent data natively. </p>
 
-`Part 1` of this blog post will contain a brief introduction to working with the Databases and Volumes in Docker.
+<p align="justify"> <code>Part 1</code> of this blog post will contain a brief introduction to working with the Databases and Volumes in Docker. </p>
 
-In `Part 2`, we will see a tutorial/case study of using **MySQL** in Docker.
+<p align="justify">In <code>Part 2</code>, we will see a tutorial/case study of using **MySQL** in Docker. </p>
 
 
 ### History of Workarounds
+<ol type="1">
+<li><p align="justify">The first workaround to the Docker/database problem is to store the database itself elsewhere on an online platform such as the cloud or on a virtual machine. This is essentially a service via a port for legacy applications. </p> </li>
 
-1. The first workaround to the Docker/database problem is to store the database itself elsewhere on an online platform such as the cloud or on a virtual machine. This is essentially a service via a port for legacy applications.
-
-2. Another workaround for dealing with persistent data is to store it on, say, Amazon S3 and retrieve it if the container goes bust. This means the data present within the container is also backed up on the cloud so that it can be retrieved should the container go belly up. Given that databases are typically large files, this can be a very cumbersome process.
-
+<li><p align="justify">Another workaround for dealing with persistent data is to store it on, say, Amazon S3 and retrieve it if the container goes bust. This means the data present within the container is also backed up on the cloud so that it can be retrieved should the container go belly up. Given that databases are typically large files, this can be a very cumbersome process. </p> </li>
+</ol>
 
 
 ### Databases in Containers
