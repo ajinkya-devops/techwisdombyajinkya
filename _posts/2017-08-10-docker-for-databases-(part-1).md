@@ -17,7 +17,7 @@ introduction:
 
 Docker containers were created with dynamic data in mind. This meant that, out of the box, Docker containers did not know how to deal with persistent data such as large databases.
 
-</p>
+</div>
 
 <div align="justify">
 
@@ -95,18 +95,12 @@ Some container coordination frameworks, such as Kubernetes, attempt to simplify 
 
 ![placeholder](<../assets/img/Post_Images/2017-08-10-docker-for-databases-(part-1)/docker3.png> "Jenkins Git")
 
-<div align="justify">
-
 In this scenario, the database server and clients are on different nodes and require network access to communicate. In this case, you must ensure that Docker not only exposes a port for the database container but that a port is also exposed to the network so other clients can communicate with it.
 
-<br>
 Notice how in this scenario, the database server is still containerized but the client resides on a different node. For network connections, Docker provides a simple directive in the Dockerfile to expose a port from the running container. For example, to create a Postgres DB server container that listens on the default Postgres port, you would add the following line: EXPOSE 8080
-
-<br>
 
 You then also need to ensure that you perform the port mapping when the container runs using either the -P or -p flags.
 
-</div>
 
 ### Things to Consider
 
