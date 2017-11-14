@@ -17,9 +17,12 @@ introduction:
 
 Docker containers were created with dynamic data in mind. This meant that, out of the box, Docker containers did not know how to deal with persistent data such as large databases.
 
+
 **Two workarounds** were initially used to make Docker containers work with databases. The Docker volume API was later introduced to deal with persistent data natively.
 
+
 `Part 1` of this blog post will contain a brief introduction to working with the Databases and Volumes in Docker.
+
 
 In `Part 2`, we will see a tutorial/case study of using **MySQL** in Docker.
 
@@ -56,7 +59,9 @@ Note in the figure, how the container host, like the traditional Linux deploymen
 
 In this setup, there are actually two clients. One is containerized and the other is executing from the container host directly. The database is also containerized but isolated by namespacing as well.
 
+
 The database client executing on the host can still communicate with the containerized database server via TCP/IP because Docker has an internal network for containers to communication with each other and the host. Once an interconnection mechanism has been established a container developer must ensure that service containers are properly configured to allow access to these connections.
+
 
 Some container coordination frameworks, such as Kubernetes, attempt to simplify this use case for containers co-located on a single node by sharing the network port space between node-local containers.
 
