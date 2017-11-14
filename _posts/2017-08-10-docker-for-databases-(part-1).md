@@ -17,14 +17,18 @@ introduction:
 
 Docker containers were created with dynamic data in mind. This meant that, out of the box, Docker containers did not know how to deal with persistent data such as large databases.
 
+</p>
+
 <br>
 
 **Two workarounds** were initially used to make Docker containers work with databases. The Docker volume API was later introduced to deal with persistent data natively.
 
+</p>
 <br>
 
 `Part 1` of this blog post will contain a brief introduction to working with the Databases and Volumes in Docker.
 
+</p>
 <br>
 
 In `Part 2`, we will see a tutorial/case study of using **MySQL** in Docker.
@@ -37,6 +41,7 @@ In `Part 2`, we will see a tutorial/case study of using **MySQL** in Docker.
 
 1. The first workaround to the Docker/database problem is to store the database itself elsewhere on an online platform such as the cloud or on a virtual machine. This is essentially a service via a port for legacy applications.
 
+</p>
 <br>
 
 2. Another workaround for dealing with persistent data is to store it on, say, Amazon S3 and retrieve it if the container goes bust. This means the data present within the container is also backed up on the cloud so that it can be retrieved should the container go belly up. Given that databases are typically large files, this can be a very cumbersome process.
@@ -100,13 +105,18 @@ You then also need to ensure that you perform the port mapping when the containe
 
 - Ensure that your container environment has enough CPU and memory resources. If your container environment does not have enough resources, databases will suffer.
 
+</p>
+
 <br>
 
 * Keep container as secure as possible. With Docker, it’s simple to set up an isolated network that only the containers for a given application can access. The database can be completely isolated from the external network this way.
 
+</p>
 <br>
 
 * Don’t try to recreate your database infrastructure using containers as a replacement for virtual machines or physical machines. This is especially true for applications whose SLA is not mission critical.
+
+</p>
 
 <br>
 
