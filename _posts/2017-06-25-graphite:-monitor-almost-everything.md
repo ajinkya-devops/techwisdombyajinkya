@@ -45,7 +45,7 @@ Most logging systems today are unable to correlate data from various application
 
 Graphite consists of `three` software components:
 
-<img align="right" width="300" height="400" src="../assets/img/Post_Images/2017-06-25-graphite:-monitor-almost-everything/3.png">   
+![placeholder](../assets/img/Post_Images/2017-06-25-graphite:-monitor-almost-everything/3.png "Graphite") 
 
 <ol type="1">
 <li><p align="justify">
