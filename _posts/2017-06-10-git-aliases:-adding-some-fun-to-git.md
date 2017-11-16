@@ -13,7 +13,7 @@ tags:
 twitter_text:
 introduction:
 ---
-<p align="justify"><code>Git</code> is a powerful, sophisticated system for distributed <code>version control.</code> Gaining an understanding of its features opens to developers a new and liberating approach to source code management.</p>
+<p align="justify"><code>Git</code> is a powerful, sophisticated system for distributed <code>version control</code>. Gaining an understanding of its features opens to developers a new and liberating approach to source code management.</p>
 
 <p align="justify">How many of you know that in Git, many powerful features are hidden behind options rather than exposed as default behavior. One such feature is <code>Git Aliases</code>.</p>
 
@@ -48,8 +48,8 @@ In this post, we will see a selection of the more useful (or at least entertaini
 
 <p align="justify"><code>git commend</code> quietly tracks any staged files onto the last commit you created, re-using your existing commit message.</p>
 
-```Shell
-    git config --global alias.commend 'commit --amend --no-edit'
+```shell
+    $git config --global alias.commend 'commit --amend --no-edit'
 ```
 
 ![placeholder](<..assets/img/Post_Images/2017-06-10-git-aliases:-adding-some-fun-to-git/4.png> "Git Aliases")
@@ -70,8 +70,9 @@ In this post, we will see a selection of the more useful (or at least entertaini
 
 <p align="justify">Here's one of the simplest way (Yes, you read it correctly!) to do that:</p>
 
-```Shell
-    $ git config --global alias.grog 'log --graph --abbrev-commit --decorate --all --format=format:"%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(dim white) - %an%C(reset) %C(bold green)(%ar)%C(reset)%C(bold yellow)%d%C(reset)%n %C(white)%s%C(reset)"'
+
+```shell
+    $git config --global alias.grog 'log --graph --abbrev-commit --decorate --all --format=format:"%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(dim white) - %an%C(reset) %C(bold green)(%ar)%C(reset)%C(bold yellow)%d%C(reset)%n %C(white)%s%C(reset)"'
 ```
 
 <p align="justify">After which you can use <code>git grog</code> & the output will be quite different than <code>git log</code>.</p>
@@ -83,14 +84,14 @@ In this post, we will see a selection of the more useful (or at least entertaini
 
 <p align="justify">Here are some of the most commonly used aliases which you can set for once and then use in your git bash.</p>
 
-<code>
+```Shell
     git config --global alias.co checkout
     git config --global alias.ci commit
     git config --global alias.st status
     git config --global alias.br branch
     git config --global alias.type 'cat-file -t'
     git config --global alias.dump 'cat-file -p'
-</code>
+```
 
 <p align="justify">If you have some neat Git aliases of your own, share them in the comments.</p>
 
