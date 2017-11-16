@@ -20,7 +20,7 @@ permalink: /contact/
     <form accept-charset="UTF-8" method="POST" action="https://formspree.io/{{ site.email }}" v-on:submit.prevent="validateBeforeSubmit" ref="contact">
       <fieldset>
         <input type="hidden" name="_subject" value="New contact!" />
-        <input type="hidden" name="_next" value="{{ site.url }}/contact/message-sent/" />
+        <input type="hidden" name="_next" value="{{ site.url }}{{ site.baseurl }}/contact/message-sent/" />
         <input type="hidden" name="_language" value="en" />
 
         <input type="text" name="name" placeholder="Your name" v-validate="'required'"

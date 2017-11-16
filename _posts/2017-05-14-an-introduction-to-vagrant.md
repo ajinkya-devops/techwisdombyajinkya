@@ -42,16 +42,13 @@ introduction:
  
 <p align="justify">Okay so that's enough of introduction to Vagrant. Now we will cover prerequisites and overview of setup that you need to do before you can get going on your own. </p>
  
-
-### Prerequisites
- 
+### Prerequisites 
 <p align="justify">As I mentioned earlier in the post, Vagrant acts as wrapper around virtualization software, so for Vagrant to work, you need to have some type of virtualization software setup. </p>
 
 <p align="justify">The easiest way is to install VirtualBox, because it is free, supports all major operating systems, and it works great with Vagrant. </p>
 
 <ul>
 <li>Download Virtualbox binaries from <a href="https://www.virtualbox.org/wiki/Downloads">HERE</a> according to your platform. </li>
-
 <li>Install Virtualbox </li>
 </ul>
 
@@ -60,7 +57,6 @@ introduction:
 
 <ul>
 <li>You can download Vagrant from <a href="https://www.vagrantup.com/downloads.html">HERE</a> </li> 
-
 <li>Install Vagrant according to the installation guide from <a href="https://www.vagrantup.com/docs/installation/">HERE</a> </li>
 </ul>
 
@@ -69,7 +65,6 @@ introduction:
 
 <ul>
 <li>Verify that Vagrant is installed correctly by opening Command Prompt & typing "vagrant -v" </li>
-
 <li>Also, If you run the vagrant command without any arguments, you will get the default help output, which displays available command options. </li>
 </ul>
 
@@ -93,7 +88,6 @@ introduction:
 
 <ul>
 <li>After running the above two commands, you will have a fully running virtual machine in VirtualBox running Ubuntu 12.04 LTS 64-bit. </li>
-
 <li>You can SSH into this machine with vagrant ssh, and when you are done playing around, you can terminate the virtual machine with vagrant destroy. </li>
 </ul>
  
@@ -101,7 +95,6 @@ introduction:
 
 <ul>
 <li>A Vagrant environment can be a single Vagrant virtual machine, or a collection of virtual machines. So, an environment will describe what boxes, or virtual machines to boot, along with all of the associated settings, through a configuration file called a Vagrantfile. </li>
-
 <li>I will write a separate blog post on Vagrantfiles & working around them to create multiple virtual environments at a time & playing around them. </li>
 </ul>
 
