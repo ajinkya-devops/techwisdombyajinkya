@@ -42,7 +42,7 @@ In Part 1 of this series, you were introduced with the Databases and Volumes in 
 
 <p align="justify">To start a MySQL container instance,</p>
 
-    ```bash
+    ```shell
     docker run -d --name test-mysql \
     > -e MYSQL_ROOT_PASSWORD=yourpass \
     > -p 6603:3306 mysql
@@ -50,13 +50,13 @@ In Part 1 of this series, you were introduced with the Databases and Volumes in 
 
 <p align="justify">You will get an output of the container ID, indicating the container is successfully running in the background. Let’s verify the status of the container:</p>
 
-    ```bash
+    ```shell
     docker ps
     ```
 
 <p align="justify">It will display the details of the running container along with the port mappings.</p>
 
-    ```bash
+    ```shell
     CONTAINER ID      IMAGE           COMMAND             CREATED  
       STATUS                      PORTS                 NAMES
     83285aa548a    mysql:latest  docker-entrypoint.s  4 minutes ago
@@ -71,7 +71,7 @@ In Part 1 of this series, you were introduced with the Databases and Volumes in 
 <p align="justify">Let’s say, you want to link your MySQL DB to a Wordpress container.
 You can do that by spinning up a Wordpress Image while linking it to MySQL container that is already running.</p>
 
-    ```bash
+    ```shell
     docker run --detach --name test-wordpress \
     > --link test-mysql:mysql wordpress
     ```
@@ -86,13 +86,13 @@ You can do that by spinning up a Wordpress Image while linking it to MySQL conta
 
 <p align="justify">Now, Create a data directory on a suitable volume on your host system, e.g. /storage/docker/mysql-datadir:</p>
 
-    ```bash
+    ```shell
     mkdir -p /storage/docker/mysql-datadir
     ```
 
 <p align="justify">Now, start your MySQL container like this:</p>
 
-    ```bash
+    ```shell
     docker run --detach --name=test-mysql \
     > --env="MYSQL_ROOT_PASSWORD=mypassword" \
     > --publish 6603:3306 \
@@ -103,7 +103,7 @@ You can do that by spinning up a Wordpress Image while linking it to MySQL conta
 
 <p align="justify">Here, we are binding 2 directories from the Host system with the ones inside the container.</p>
 
-    ```bash
+    ```shell
     --volume=/root/docker/test-mysql/conf.d:/etc/mysql/conf.d
     --volume=/storage/docker/mysql-datadir:/var/lib/mysql
     ```
