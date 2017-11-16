@@ -34,12 +34,12 @@ In this post, we will see a selection of the more useful (or at least entertaini
 
 <p align="justify">For example, <code>git status</code> emits <code>13 lines</code> to tell me that I have a couple of staged, unstaged, and untracked changes:</p>
 
-![placeholder](..assets/img/Post_Images/2017-06-10-git-aliases:-adding-some-fun-to-git/2.png "Git Aliases")
+![placeholder](<..assets/img/Post_Images/2017-06-10-git-aliases:-adding-some-fun-to-git/2.png> "Git Aliases")
 
 
 <p align="justify"><code>git shorty</code> tells me the same thing in <code>3 lines!</code> Pretty cool, isn't it?</p>
 
-![placeholder](..assets/img/Post_Images/2017-06-10-git-aliases:-adding-some-fun-to-git/3.png "Git Aliases")
+![placeholder](<..assets/img/Post_Images/2017-06-10-git-aliases:-adding-some-fun-to-git/3.png> "Git Aliases")
 
 
 ### Git Commend
@@ -52,7 +52,7 @@ In this post, we will see a selection of the more useful (or at least entertaini
     git config --global alias.commend 'commit --amend --no-edit'
 ```
 
-![placeholder](..assets/img/Post_Images/2017-06-10-git-aliases:-adding-some-fun-to-git/4.png "Git Aliases")
+![placeholder](<..assets/img/Post_Images/2017-06-10-git-aliases:-adding-some-fun-to-git/4.png> "Git Aliases")
 
 
 ### Git It
@@ -61,7 +61,7 @@ In this post, we will see a selection of the more useful (or at least entertaini
 
 <p align="justify"><code>git it</code> both initializes your repository and creates an empty root commit in one quick step. Next time you spin up a project, don’t just add it to version control: git it!</p>
 
-![placeholder](..assets/img/Post_Images/2017-06-10-git-aliases:-adding-some-fun-to-git/5.png "Git Aliases")
+![placeholder](<..assets/img/Post_Images/2017-06-10-git-aliases:-adding-some-fun-to-git/5.png> "Git Aliases")
 
 
 ### Git Grog
@@ -76,7 +76,7 @@ In this post, we will see a selection of the more useful (or at least entertaini
 
 <p align="justify">After which you can use <code>git grog</code> & the output will be quite different than <code>git log</code>.</p>
 
-![placeholder](..assets/img/Post_Images/2017-06-10-git-aliases:-adding-some-fun-to-git/6.png "Git Aliases")
+![placeholder](<..assets/img/Post_Images/2017-06-10-git-aliases:-adding-some-fun-to-git/6.png> "Git Aliases")
 
 
 ### Other commonly used Aliases
