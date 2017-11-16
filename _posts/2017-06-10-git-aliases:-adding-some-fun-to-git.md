@@ -83,14 +83,14 @@ In this post, we will see a selection of the more useful (or at least entertaini
 
 <p align="justify">Here are some of the most commonly used aliases which you can set for once and then use in your git bash.</p>
 
-```Shell
+<code>
     git config --global alias.co checkout
     git config --global alias.ci commit
     git config --global alias.st status
     git config --global alias.br branch
     git config --global alias.type 'cat-file -t'
     git config --global alias.dump 'cat-file -p'
-```
+</code>
 
 <p align="justify">If you have some neat Git aliases of your own, share them in the comments.</p>
 
