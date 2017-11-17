@@ -10,8 +10,8 @@ tags:
 - Docker
 - Database
 - Containers
-twitter_text:
-introduction:
+twitter_text: Actual implementation of running MySQL inside a Docker container.
+introduction: Actual implementation of running MySQL inside a Docker container.
 ---
 <p align="justify">
 In Part 1 of this series, you were introduced with the Databases and Volumes in Docker, their significance in Data Persistence and 2 approaches of using them in Container. </p>

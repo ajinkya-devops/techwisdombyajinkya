@@ -9,8 +9,8 @@ category: 'devops'
 tags:
 - ansible
 - configmgmt
-twitter_text: Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-introduction: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+twitter_text: Analysing Ansible Runs with ARA tool.
+introduction: Analysing Ansible Runs with ARA tool.
 ---
 <a href="https://www.ansible.com/">Ansible</a> can be used for a lot of things and it’s grown pretty popular for managing servers and their configuration. Today, Ansible is heavily used to deploy or test through Continuous Integration (CI).
 

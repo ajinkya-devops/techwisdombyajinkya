@@ -10,8 +10,8 @@ tags:
 - Jenkins
 - Git
 - Tutorial
-twitter_text:
-introduction:
+twitter_text: Learning Git & Jenkins 
+introduction: Learning Git & Jenkins 
 ---
 
 Want to learn `Docker`?

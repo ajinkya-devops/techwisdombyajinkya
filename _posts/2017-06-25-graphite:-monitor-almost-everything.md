@@ -9,8 +9,8 @@ category: 'devops'
 tags:
 - Monitoring
 - Graphing
-twitter_text:
-introduction:
+twitter_text: Introduction to Graphite Monitoring.
+introduction: Introduction to Graphite Monitoring.
 ---
 ### Introduction
 

@@ -10,8 +10,8 @@ tags:
 - Git
 - Aliases
 - SCM
-twitter_text:
-introduction:
+twitter_text: Introduction to Git Aliases
+introduction: Introduction to Git Aliases
 ---
 
 <p align="justify"><code>Git</code> is a powerful, sophisticated system for distributed <code>version control</code>. Gaining an understanding of its features opens to developers a new and liberating approach to source code management. </p>

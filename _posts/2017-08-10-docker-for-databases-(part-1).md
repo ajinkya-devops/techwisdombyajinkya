@@ -10,8 +10,8 @@ tags:
 - Docker
 - Database
 - Containers
-twitter_text:
-introduction:
+twitter_text: A brief introduction to working with the Databases and Volumes in Docker.
+introduction: A brief introduction to working with the Databases and Volumes in Docker.
 ---
 <p align="justify">
 Docker containers were created with dynamic data in mind. This meant that, out of the box, Docker containers did not know how to deal with persistent data such as large databases. </p>

@@ -9,8 +9,8 @@ category: 'devops'
 tags:
 - Vagrant
 - VMs
-twitter_text:
-introduction:
+twitter_text: Introduction to Vagrant
+introduction: Introduction to Vagrant
 ---
 <p align="justify">As we all know, <code>Virtual Machines(VMs)</code> are very popular among the entire IT world. Reason being: their capability of emulating an entire computing system. Virtual Machines gained popularity because of certain aspects of them which are listed below: </p>
 

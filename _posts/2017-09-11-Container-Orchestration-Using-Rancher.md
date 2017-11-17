@@ -10,8 +10,8 @@ tags:
 - rancher
 - docker
 - orchestration
-twitter_text:
-introduction:
+twitter_text: Orchestrating Docker containers using Rancher.
+introduction: Orchestrating Docker containers using Rancher.
 ---
 
 `Rancher` is an open source software platform that enables organizations to run and manage *Docker* and *Kubernetes/Swarm/Mesos* in production. With Rancher, organizations no longer have to build a container services platform from scratch using a distinct set of open source technologies. Rancher supplies the entire software stack needed to manage containers in production.
