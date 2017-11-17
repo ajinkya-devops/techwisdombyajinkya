@@ -19,7 +19,7 @@ facebook_username: iamajinkyabapat
 twitter_username: ajinkyab12
 instagram_username: instagram_username
 linkedin_username: ajinkyabapat
-medium_username: medium_username
+medium_username:
 
 # Build settings
 markdown: kramdown
