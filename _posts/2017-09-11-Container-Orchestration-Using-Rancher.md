@@ -7,9 +7,9 @@ image: '../assets/img/Post_Images/2017-09-11-Container-Orchestration-Using-Ranch
 description: Orchestrating Docker containers using Rancher.
 category: 'devops'
 tags:
-- rancher
-- docker
-- orchestration
+- Rancher
+- Docker
+- Orchestration
 twitter_text: Orchestrating Docker containers using Rancher.
 introduction: Orchestrating Docker containers using Rancher.
 ---

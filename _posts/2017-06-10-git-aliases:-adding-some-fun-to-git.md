@@ -71,7 +71,7 @@ In this post, we will see a selection of the more useful (or at least entertaini
 
 <p align="justify">Here's one of the simplest way (Yes, you read it correctly!) to do that: </p>
 
-    $git config --global alias.grog 'log --graph --abbrev-commit --decorate --all --format=format:"%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(dim white) - %an%C(reset) %C(bold green)(%ar)%C(reset)%C(bold yellow)%d%C(reset)%n %C(white)%s%C(reset)"'
+<pre>$git config --global alias.grog 'log --graph --abbrev-commit --decorate --all --format=format:"%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(dim white) - %an%C(reset) %C(bold green)(%ar)%C(reset)%C(bold yellow)%d%C(reset)%n %C(white)%s%C(reset)"'</pre>
 
 
 <p align="justify">After which you can use <code>git grog</code> & the output will be quite different than <code>git log</code>. </p>

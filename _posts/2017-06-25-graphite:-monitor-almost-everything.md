@@ -8,7 +8,7 @@ description: Introduction to Graphite.
 category: 'devops'
 tags:
 - Monitoring
-- Graphing
+- Graphs
 twitter_text: Introduction to Graphite Monitoring.
 introduction: Introduction to Graphite Monitoring.
 ---

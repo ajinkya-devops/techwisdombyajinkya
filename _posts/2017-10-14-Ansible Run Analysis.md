@@ -7,8 +7,8 @@ image: '../assets/img/Post_Images/2017-09-14-Ansible Run Analysis/ara-with-icon.
 description: Analysing Ansible Runs with ARA tool.
 category: 'devops'
 tags:
-- ansible
-- configmgmt
+- Ansible
+- ConfigMgmt
 twitter_text: Analysing Ansible Runs with ARA tool.
 introduction: Analysing Ansible Runs with ARA tool.
 ---
