@@ -3,7 +3,7 @@ layout: post
 title: "Git Aliases: Adding some fun to Git"
 date: 2017-06-10 08:27:18
 initpath: 'assets/img/Post_Images/2017-06-10-git-aliases:-adding-some-fun-to-git/1.png'
-image: '..assets/img/Post_Images/2017-06-10-git-aliases:-adding-some-fun-to-git/1.png'
+image: '../assets/img/Post_Images/2017-06-10-git-aliases:-adding-some-fun-to-git/1.png'
 description: Introduction to Git Aliases
 category: 'devops'
 tags:
@@ -13,6 +13,7 @@ tags:
 twitter_text:
 introduction:
 ---
+
 <p align="justify"><code>Git</code> is a powerful, sophisticated system for distributed <code>version control</code>. Gaining an understanding of its features opens to developers a new and liberating approach to source code management. </p>
 
 <p align="justify">How many of you know that in Git, many powerful features are hidden behind options rather than exposed as default behavior. One such feature is <code>Git Aliases</code>. </p>
@@ -34,12 +35,12 @@ In this post, we will see a selection of the more useful (or at least entertaini
 
 <p align="justify">For example, <code>git status</code> emits <code>13 lines</code> to tell me that I have a couple of staged, unstaged, and untracked changes: </p>
 
-![placeholder](<..assets/img/Post_Images/2017-06-10-git-aliases:-adding-some-fun-to-git/2.png> "Git Aliases")
+![placeholder](<../assets/img/Post_Images/2017-06-10-git-aliases:-adding-some-fun-to-git/2.png> "Git Aliases")
 
 
 <p align="justify"><code>git shorty</code> tells me the same thing in <code>3 lines!</code> Pretty cool, isn't it? </p>
 
-![placeholder](<..assets/img/Post_Images/2017-06-10-git-aliases:-adding-some-fun-to-git/3.png> "Git Aliases")
+![placeholder](<../assets/img/Post_Images/2017-06-10-git-aliases:-adding-some-fun-to-git/3.png> "Git Aliases")
 
 
 ### Git Commend
@@ -52,7 +53,7 @@ In this post, we will see a selection of the more useful (or at least entertaini
     $git config --global alias.commend 'commit --amend --no-edit'
 ```
 
-![placeholder](<..assets/img/Post_Images/2017-06-10-git-aliases:-adding-some-fun-to-git/4.png> "Git Aliases")
+![placeholder](<../assets/img/Post_Images/2017-06-10-git-aliases:-adding-some-fun-to-git/4.png> "Git Aliases")
 
 
 ### Git It
@@ -61,7 +62,7 @@ In this post, we will see a selection of the more useful (or at least entertaini
 
 <p align="justify"><code>git it</code> both initializes your repository and creates an empty root commit in one quick step. Next time you spin up a project, don’t just add it to version control: git it! </p>
 
-![placeholder](<..assets/img/Post_Images/2017-06-10-git-aliases:-adding-some-fun-to-git/5.png> "Git Aliases")
+![placeholder](<../assets/img/Post_Images/2017-06-10-git-aliases:-adding-some-fun-to-git/5.png> "Git Aliases")
 
 
 ### Git Grog
@@ -77,7 +78,7 @@ In this post, we will see a selection of the more useful (or at least entertaini
 
 <p align="justify">After which you can use <code>git grog</code> & the output will be quite different than <code>git log</code>. </p>
 
-![placeholder](<..assets/img/Post_Images/2017-06-10-git-aliases:-adding-some-fun-to-git/6.png> "Git Aliases")
+![placeholder](<../assets/img/Post_Images/2017-06-10-git-aliases:-adding-some-fun-to-git/6.png> "Git Aliases")
 
 
 ### Other commonly used Aliases
