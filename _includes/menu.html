@@ -3,7 +3,7 @@
       <h2>Menu</h2>
       <ul>
         {% for link in site.links %}
-          {% if site.link.title = "Home" %}
+          {% if site.link.title = 'Home' %}
           <li><a href="{{ link.url }}">{{ link.title }}</a></li>
           {% else %}
           <li><a href="{{ site.url }}{{ site.baseurl }}{{ link.url }}">{{ link.title }}</a></li>
