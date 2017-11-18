@@ -105,10 +105,10 @@ Navigate to the following URL: `http://<SERVER_IP>:8080`
     So I will use ***Docker Container IP*** for Rancher Server so that we can add a host on the same machine.
  * To get an IP, type:
 
-        ```bash
+```bash
         abc@xyz:~$docker exec -it CONTAINER_NAME /bin/bash
         root@YOUR_CONTAINER_ID:/# ifconfig
-        ```
+```
     * Copy the `eth0:inet addr`
     * Click on Something else and put that ***IP:8080*** in the text box.
     * Click on ***Save***. 
@@ -131,30 +131,32 @@ This time you will get a Login screen instead of a direct access. Login with you
 * Paste the code into your terminal and hit Enter.
 
 ```bash
-        abc@xyz:~$sudo docker run --rm --privileged -v /var/run/docker.sock:/var/run/docker.sock -v /var/lib/rancher:/var/lib/rancher rancher/agent:v1.2.6 http://172.17.0.2:8080/v1/scripts/54BF6EC0C28EF33BF9A7:1483142400000:FQ3kgZ3w5lKRkeynl9m8SysKWs
+    abc@xyz:~$sudo docker run --rm --privileged -v /var/run/docker.sock:/var/run/docker.sock \
+    \ -v /var/lib/rancher:/var/lib/rancher rancher/agent:v1.2.6 \ 
+    \ http://172.17.0.2:8080/v1/scripts/54BF6EC0C28EF33BF9A7:1483142400000:FQ3kgZ3w5lKRkeynl9m8SysKWs
 ```
 
 * If everything goes well, you will get an output like:
 
 ```bash
-        INFO: Running Agent Registration Process, CATTLE_URL=http://172.17.0.2:8080/v1
-        INFO: Attempting to connect to: http://172.17.0.2:8080/v1
-        INFO: http://172.17.0.2:8080/v1 is accessible
-        INFO: Inspecting host capabilities
-        INFO: Boot2Docker: false
-        INFO: Host writable: true
-        INFO: Token: xxxxxxxx
-        INFO: Running registration
-        INFO: Printing Environment
-        INFO: ENV: CATTLE_ACCESS_KEY=A9C001B621AD7B5D3443
-        INFO: ENV: CATTLE_HOME=/var/lib/cattle
-        INFO: ENV: CATTLE_REGISTRATION_ACCESS_KEY=registrationToken
-        INFO: ENV: CATTLE_REGISTRATION_SECRET_KEY=xxxxxxx
-        INFO: ENV: CATTLE_SECRET_KEY=xxxxxxx
-        INFO: ENV: CATTLE_URL=http://172.17.0.2:8080/v1
-        INFO: ENV: DETECTED_CATTLE_AGENT_IP=172.17.0.3
-        INFO: ENV: RANCHER_AGENT_IMAGE=rancher/agent:v1.2.6
-        INFO: Launched Rancher Agent: 8f5ce937fff4c179f26e64aea0887f40839f2d201581f66bf76009ae84c71477
+    INFO: Running Agent Registration Process, CATTLE_URL=http://172.17.0.2:8080/v1
+    INFO: Attempting to connect to: http://172.17.0.2:8080/v1
+    INFO: http://172.17.0.2:8080/v1 is accessible
+    INFO: Inspecting host capabilities
+    INFO: Boot2Docker: false
+    INFO: Host writable: true
+    INFO: Token: xxxxxxxx
+    INFO: Running registration
+    INFO: Printing Environment
+    INFO: ENV: CATTLE_ACCESS_KEY=A9C001B621AD7B5D3443
+    INFO: ENV: CATTLE_HOME=/var/lib/cattle
+    INFO: ENV: CATTLE_REGISTRATION_ACCESS_KEY=registrationToken
+    INFO: ENV: CATTLE_REGISTRATION_SECRET_KEY=xxxxxxx
+    INFO: ENV: CATTLE_SECRET_KEY=xxxxxxx
+    INFO: ENV: CATTLE_URL=http://172.17.0.2:8080/v1
+    INFO: ENV: DETECTED_CATTLE_AGENT_IP=172.17.0.3
+    INFO: ENV: RANCHER_AGENT_IMAGE=rancher/agent:v1.2.6
+    INFO: Launched Rancher Agent: 8f5ce937fff4c179f26e64aea0887f40839f2d201581f66bf76009ae84c71477
 ```
 * Within a few minutes, you'll see your new host in the Rancher UI. You will also get some basic information about the host such as its IP address, processor clock-speed, memory, and storage.
 
@@ -162,7 +164,7 @@ This time you will get a Login screen instead of a direct access. Login with you
 
 ### Step 5 - Monitoring your Hosts
 
-<p align="justify">Once your host is added and is <b>Active</b>, you can click on the name of the host to open up the <b>Monitoring</b> window.
+<p align="justify">Once your host is added and is <b>Active</b>, you can click on the name of the host to open up the <b>Monitoring</b> window. </p>
 
 ![placeholder](../assets/img/Post_Images/2017-09-11-Container-Orchestration-Using-Rancher/7.png "Rancher UI")
 
