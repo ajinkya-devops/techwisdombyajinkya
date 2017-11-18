@@ -18,7 +18,7 @@ introduction: Analysing Ansible Runs with ARA tool.
 
 ### Problem
 
-<p align="justify">Well, you cannot call it as a "Problem!",  but Ansible runs generate quite a large amount of console data. And yes, it continues to grow with each ***flag*** (*Remember **-v** & **-vvv?***) that you add to the run! </p> 
+<p align="justify">Well, you cannot call it as a "Problem!",  but Ansible runs generate quite a large amount of console data. And yes, it continues to grow with each <b>flag</b> (Remember <b>-v</b> & <b>-vvv?</b>) that you add to the run! </p> 
 
 <p align="justify">Keeping up with such a large amount of Ansible runs and their outcome, not just in the context of CI, is challenging. </p>
 
@@ -56,17 +56,17 @@ introduction: Analysing Ansible Runs with ARA tool.
 
 * Clone the repo & do:
 
-  ````yaml
+````yaml
   ansible-playbook Playbook.yml
-  ````
+````
 * If Playbook run is successful, you will get:
 
-  ````yaml
+````yaml
   TASK [ara : Display ara UI URL] ************************
   ok: [localhost] => {}
     "msg": "Access playbook records at http://YOUR_IP:9191" 
 
-  ````
+````
 * **Note**: It picks the IP address from ***ansible_default_ipv4*** fact gathered by *Ansible*. If there is no such fact gathered, replace it with your IP in `main.yml` file present in `roles/ara/tasks/` folder.
 
 2. ARA is an open source project available on <a href="https://github.com/dmsimard/ara">Github</a> under the Apache v2 license. Installation instructions are present under **Quickstart chapter**.

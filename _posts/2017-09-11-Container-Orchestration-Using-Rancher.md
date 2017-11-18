@@ -69,8 +69,8 @@ Wherse,
 
 <p align="justify">The UI and API will be available on the exposed port <code>8080</code> </p>
 
-<p align="justify">Navigate to the following URL: <code>http://<SERVER_IP>:8080</code> </p>
-<p align="justify">The <code><SERVER_IP></code> is the public IP address of the host that is running Rancher server. (In our case it will be localhost initially but later we will change it with an actual IP) </p>
+Navigate to the following URL: `http://<SERVER_IP>:8080`
+<p align="justify">The <code>SERVER_IP</code> is the public IP address of the host that is running Rancher server. (In our case it will be localhost initially but later we will change it with an actual IP) </p>
 
 ![placeholder](../assets/img/Post_Images/2017-09-11-Container-Orchestration-Using-Rancher/1.png "Rancher UI")
 
