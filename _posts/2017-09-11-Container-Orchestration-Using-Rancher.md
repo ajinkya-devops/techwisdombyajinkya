@@ -109,9 +109,9 @@ Navigate to the following URL: `http://<SERVER_IP>:8080`
         abc@xyz:~$docker exec -it CONTAINER_NAME /bin/bash
         root@YOUR_CONTAINER_ID:/# ifconfig
 ```
-    * Copy the `eth0:inet addr`
-    * Click on Something else and put that ***IP:8080*** in the text box.
-    * Click on ***Save***. 
+ * Copy the `eth0:inet addr`
+ * Click on Something else and put that ***IP:8080*** in the text box.
+ * Click on ***Save***. 
 
 ![placeholder](../assets/img/Post_Images/2017-09-11-Container-Orchestration-Using-Rancher/3.png "Rancher UI")
 
@@ -131,32 +131,32 @@ This time you will get a Login screen instead of a direct access. Login with you
 * Paste the code into your terminal and hit Enter.
 
 ```bash
-    abc@xyz:~$sudo docker run --rm --privileged -v /var/run/docker.sock:/var/run/docker.sock \
-    \ -v /var/lib/rancher:/var/lib/rancher rancher/agent:v1.2.6 \ 
-    \ http://172.17.0.2:8080/v1/scripts/54BF6EC0C28EF33BF9A7:1483142400000:FQ3kgZ3w5lKRkeynl9m8SysKWs
+abc@xyz:~$sudo docker run --rm --privileged -v /var/run/docker.sock:/var/run/docker.sock \
+\ -v /var/lib/rancher:/var/lib/rancher rancher/agent:v1.2.6 \ 
+\ http://172.17.0.2:8080/v1/scripts/54BF6EC0C28EF33BF9A7:1483142400000:FQ3kgZ3w5lKRkeynl9m8SysKWs
 ```
 
 * If everything goes well, you will get an output like:
 
 ```bash
-    INFO: Running Agent Registration Process, CATTLE_URL=http://172.17.0.2:8080/v1
-    INFO: Attempting to connect to: http://172.17.0.2:8080/v1
-    INFO: http://172.17.0.2:8080/v1 is accessible
-    INFO: Inspecting host capabilities
-    INFO: Boot2Docker: false
-    INFO: Host writable: true
-    INFO: Token: xxxxxxxx
-    INFO: Running registration
-    INFO: Printing Environment
-    INFO: ENV: CATTLE_ACCESS_KEY=A9C001B621AD7B5D3443
-    INFO: ENV: CATTLE_HOME=/var/lib/cattle
-    INFO: ENV: CATTLE_REGISTRATION_ACCESS_KEY=registrationToken
-    INFO: ENV: CATTLE_REGISTRATION_SECRET_KEY=xxxxxxx
-    INFO: ENV: CATTLE_SECRET_KEY=xxxxxxx
-    INFO: ENV: CATTLE_URL=http://172.17.0.2:8080/v1
-    INFO: ENV: DETECTED_CATTLE_AGENT_IP=172.17.0.3
-    INFO: ENV: RANCHER_AGENT_IMAGE=rancher/agent:v1.2.6
-    INFO: Launched Rancher Agent: 8f5ce937fff4c179f26e64aea0887f40839f2d201581f66bf76009ae84c71477
+INFO: Running Agent Registration Process, CATTLE_URL=http://172.17.0.2:8080/v1
+INFO: Attempting to connect to: http://172.17.0.2:8080/v1
+INFO: http://172.17.0.2:8080/v1 is accessible
+INFO: Inspecting host capabilities
+INFO: Boot2Docker: false
+INFO: Host writable: true
+INFO: Token: xxxxxxxx
+INFO: Running registration
+INFO: Printing Environment
+INFO: ENV: CATTLE_ACCESS_KEY=A9C001B621AD7B5D3443
+INFO: ENV: CATTLE_HOME=/var/lib/cattle
+INFO: ENV: CATTLE_REGISTRATION_ACCESS_KEY=registrationToken
+INFO: ENV: CATTLE_REGISTRATION_SECRET_KEY=xxxxxxx
+INFO: ENV: CATTLE_SECRET_KEY=xxxxxxx
+INFO: ENV: CATTLE_URL=http://172.17.0.2:8080/v1
+INFO: ENV: DETECTED_CATTLE_AGENT_IP=172.17.0.3
+INFO: ENV: RANCHER_AGENT_IMAGE=rancher/agent:v1.2.6
+INFO: Launched Rancher Agent: 8f5ce937fff4c179f26e64aea0887f40839f2d201581f66bf76009ae84c71477
 ```
 * Within a few minutes, you'll see your new host in the Rancher UI. You will also get some basic information about the host such as its IP address, processor clock-speed, memory, and storage.
 
@@ -172,7 +172,7 @@ This time you will get a Login screen instead of a direct access. Login with you
 
 <p align="justify">If you see that you are using most of the memory or if your CPU is running continuously hot, you may want to launch more nodes to reduce container density and spread out the load. You can react quickly to load spikes by provisioning more compute nodes right from Rancher's UI. </p>
 
-<p align="justify">Once the spikes abate, you can shut down any additional nodes by visiting the **Hosts** page, locating your host, and clicking the **Deactivate** icon (the box with two vertical lines, as shown in the following figure: </p>
+<p align="justify">Once the spikes abate, you can shut down any additional nodes by visiting the <b>Hosts</ b> page, locating your host, and clicking the **Deactivate** icon (the box with two vertical lines, as shown in the following figure: </p>
 
 ![placeholder](../assets/img/Post_Images/2017-09-11-Container-Orchestration-Using-Rancher/8.png "Rancher UI")
 
