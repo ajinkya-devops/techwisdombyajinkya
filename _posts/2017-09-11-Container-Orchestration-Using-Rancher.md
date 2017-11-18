@@ -14,9 +14,9 @@ twitter_text: Orchestrating Docker containers using Rancher.
 introduction: Orchestrating Docker containers using Rancher.
 ---
 
-`Rancher` is an open source software platform that enables organizations to run and manage *Docker* and *Kubernetes/Swarm/Mesos* in production. With Rancher, organizations no longer have to build a container services platform from scratch using a distinct set of open source technologies. Rancher supplies the entire software stack needed to manage containers in production.
+<p align="justify"><code>Rancher</code> is an open source software platform that enables organizations to run and manage *Docker* and *Kubernetes/Swarm/Mesos* in production. With Rancher, organizations no longer have to build a container services platform from scratch using a distinct set of open source technologies. Rancher supplies the entire software stack needed to manage containers in production. </p>
 
-Rancher software consists of **four** major components:
+<p align="justify">Rancher software consists of **four** major components: </p>
 
   * Infrastructure Orchestration
   * Container Orchestration & Scheduling
@@ -25,7 +25,7 @@ Rancher software consists of **four** major components:
 
 ![placeholder](../assets/img/Post_Images/2017-09-11-Container-Orchestration-Using-Rancher/12.png "Rancher UI")
 
-In this tutorial, you'll get to know about Rancher Server Installation, Adding Custom Hosts to the Rancher Server, Creating Environments & much more!
+<p align="justify">In this tutorial, you'll get to know about Rancher Server Installation, Adding Custom Hosts to the Rancher Server, Creating Environments & much more! </p>
 
 ### Pre-requisites
 
@@ -67,35 +67,36 @@ Wherse,
 
 ### Step 2 - Accessing Web UI of Rancher Server
 
-The UI and API will be available on the exposed port `8080`
+<p align="justify">The UI and API will be available on the exposed port <code>8080</code> </p>
 
-Navigate to the following URL: `http://<SERVER_IP>:8080`
-The `<SERVER_IP>` is the public IP address of the host that is running Rancher server. (In our case it will be localhost initially but later we will change it with an actual IP)
+<p align="justify">Navigate to the following URL: <code>http://<SERVER_IP>:8080</code> </p>
+<p align="justify">The <code><SERVER_IP></code> is the public IP address of the host that is running Rancher server. (In our case it will be localhost initially but later we will change it with an actual IP) </p>
 
 ![placeholder](../assets/img/Post_Images/2017-09-11-Container-Orchestration-Using-Rancher/1.png "Rancher UI")
 
 
 ### Step 3 - Setting Access Control 
 
-You will see a warning icon next to the **ADMIN** menu item at the top of the screen. If you hover over this link, you'll see the message **Access Control is not configured.**
+<p align="justify">You will see a warning icon next to the <b>ADMIN</b> menu item at the top of the screen. If you hover over this link, you'll see the message <b>Access Control is not configured</b>. </p>
 
 ![placeholder](../assets/img/Post_Images/2017-09-11-Container-Orchestration-Using-Rancher/10.png "Rancher UI")
 
-**Access Control** is how Rancher limits the users who have the access permissions to your Rancher instance. By default, Access Control is **not configured**. This means anyone who has the IP address of your Rancher instance will be able to use it and access the API. Your Rancher instance is **open to the public!**
+<p align="justify"><b>Access Control</b> is how Rancher limits the users who have the access permissions to your Rancher instance. By default, Access Control is <b>not configured</b>. This means anyone who has the IP address of your Rancher instance will be able to use it and access the API. Your Rancher instance is <b>open to the public!</b> </p>
 
-There are many ways to set Access Control, for now, we will use a Local account.
+<p align="justify">There are many ways to set Access Control, for now, we will use a Local account. </p>
 
  * Go to the ***Admin > Access Control***
  * Select ***Local***
  * Enter ***Username & Password***
  * Click on ***Enable Access Control***
+
 ![placeholder](../assets/img/Post_Images/2017-09-11-Container-Orchestration-Using-Rancher/2.png "Rancher UI")
 
-That's it! Local Authentication will now be enabled with your newly created User.
+<p align="justify">That's it! Local Authentication will now be enabled with your newly created User. </p>
 
 ### Step 4 - Adding new Host
 
-For this post, we will be creating a host on the same machine where Rancher Server resides. Practically, you will rarely have such situation.
+<p align="justify">For this post, we will be creating a host on the same machine where Rancher Server resides. Practically, you will rarely have such situation. </p>
 
 
  * Go to ***Infrastructure > Hosts***
@@ -161,28 +162,28 @@ This time you will get a Login screen instead of a direct access. Login with you
 
 ### Step 5 - Monitoring your Hosts
 
-Once your host is added and is **Active**, you can click on the name of the host to open up the **Monitoring** window.
+<p align="justify">Once your host is added and is <b>Active</b>, you can click on the name of the host to open up the <b>Monitoring</b> window.
 
 ![placeholder](../assets/img/Post_Images/2017-09-11-Container-Orchestration-Using-Rancher/7.png "Rancher UI")
 
-Here, you can view CPU utilization, memory consumption, Storage, Network details of that host. Also, you can see the containers that are running on that particular host.
+<p align="justify">Here, you can view CPU utilization, memory consumption, Storage, Network details of that host. Also, you can see the containers that are running on that particular host. </p>
 
-If you see that you are using most of the memory or if your CPU is running continuously hot, you may want to launch more nodes to reduce container density and spread out the load. You can react quickly to load spikes by provisioning more compute nodes right from Rancher's UI.
+<p align="justify">If you see that you are using most of the memory or if your CPU is running continuously hot, you may want to launch more nodes to reduce container density and spread out the load. You can react quickly to load spikes by provisioning more compute nodes right from Rancher's UI. </p>
 
-Once the spikes abate, you can shut down any additional nodes by visiting the **Hosts** page, locating your host, and clicking the **Deactivate** icon (the box with two vertical lines, as shown in the following figure:
+<p align="justify">Once the spikes abate, you can shut down any additional nodes by visiting the **Hosts** page, locating your host, and clicking the **Deactivate** icon (the box with two vertical lines, as shown in the following figure: </p>
 
 ![placeholder](../assets/img/Post_Images/2017-09-11-Container-Orchestration-Using-Rancher/8.png "Rancher UI")
 
 ### Step 6 - Adding Services from Catalog
 
-Being the leader, Rancher provides tons of Service integrations that you can use to install them on your hosts. To access them, go to ***Catalog > All***
+<p align="justify">Being the leader, Rancher provides tons of Service integrations that you can use to install them on your hosts. To access them, go to <b>Catalog > All</b> </p>
 
-Here, you can see the list of services currently available for you to use. You can click on ***View Details*** to check them out & modify the options for Installation.
+<p align="justify">Here, you can see the list of services currently available for you to use. You can click on <b>View Details</b> to check them out & modify the options for Installation. </p>
 
 ![placeholder](../assets/img/Post_Images/2017-09-11-Container-Orchestration-Using-Rancher/10.png "Rancher UI")
 
 ### Conclusion
 
-This article was meant for the basic introduction of Rancher. You now know how to launch, monitor, and deactivate compute nodes using Rancher. You can explore it further on your own by getting your hands dirty!
+<p align="justify">This article was meant for the basic introduction of Rancher. You now know how to launch, monitor, and deactivate compute nodes using Rancher. You can explore it further on your own by getting your hands dirty! </p>
 
-You're more than welcome to share this blog post with your friends/colleagues if you think they might benefit from it!
+<p align="justify">You're more than welcome to share this blog post with your friends/colleagues if you think they might benefit from it! </p>
