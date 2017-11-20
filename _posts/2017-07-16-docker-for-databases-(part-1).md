@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Docker for Databases (Part 1)"
-date: 2017-08-10 05:35:32
+date: 2017-07-16 05:35:32
 initpath: 'assets/img/Post_Images/2017-08-10-docker-for-databases-(part-1)/1.png'
 image: '../assets/img/Post_Images/2017-08-10-docker-for-databases-(part-1)/1.png'
 description: A brief introduction to working with the Databases and Volumes in Docker.

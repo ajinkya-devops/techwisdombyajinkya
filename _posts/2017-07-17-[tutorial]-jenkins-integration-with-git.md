@@ -22,7 +22,7 @@ Want to learn `Git`?
 
 Want to learn `Continuous Integration`?
 
-Want to learn all of them without *actually* messing up with your system! ??
+Want to learn all of them without ***actually*** messing up with your system! ??
 
 Well, then you are at the right place & probably at the right time!
 
@@ -30,10 +30,9 @@ I have created a **Hands-on Lab Tutorial** for you.
 
 You can access it on below link:
 
+<b> <a href="https://www.katacoda.com/ajinkyabapat/scenarios/scenario" target="_blank">Hands-on Tutorial - Jenkins Integration with GIT for CI</a> </b>
 
-Hands-on Tutorial - Jenkins Integration with GIT for CI
 
- 
 This tutorial will guide you through:
 
 1. Jenkins Installation on Docker
@@ -53,5 +52,4 @@ Here's a screenshot of the tutorial:
 
 You can also try any other Docker commands, Git Commands, Jenkins Jobs in the Lab Environment.
 
- 
 Share it with others and let me know your suggestions, comments in the comment box below.

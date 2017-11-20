@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Docker for Databases (Part 2)"
-date: 2017-07-16 05:52:42
+date: 2017-08-10 05:52:42
 initpath: 'assets/img/Post_Images/2017-07-16-docker-for-databases-(part-2)/docker11.png'
 image: '../assets/img/Post_Images/2017-07-16-docker-for-databases-(part-2)/docker11.png'
 description: Actual implementation of running MySQL inside a Docker container.

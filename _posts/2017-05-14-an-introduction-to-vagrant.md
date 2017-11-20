@@ -14,19 +14,16 @@ introduction: Introduction to Vagrant
 ---
 <p align="justify">As we all know, <code>Virtual Machines(VMs)</code> are very popular among the entire IT world. Reason being: their capability of emulating an entire computing system. Virtual Machines gained popularity because of certain aspects of them which are listed below: </p>
 
-<ul> 
+<ul><ul><ul> 
 <li>To try new Operating Systems (Major reason) </li>
 <li>To create virtualized testing environments </li>
 <li>Set up an office quickly (Literally!) </li>
 <li>Build learning environments </li>
-</ul>
+</ul></ul></ul>
  
 <p align="justify">All of you must have heard & probably would already have had an experience of working on one of the two undisputed leaders of Virtualization Environments: <code>VMware</code> & <code>Virtualbox</code>. </p>
- 
 <p align="justify">If you have ever tried to create virtual machines used for testing through a GUI; be it in the VMware or Virtualbox, you will know that it can be a pain, and it is a very manual process. I have found that there is a tendency to leave testing machines around for a long time without rebuilding them. </p>
-
 <p align="justify">Before Vagrant there is a resistance to creating clean environments, because there is an extra labour cost associated with making this happen, it just a very manual process via a GUI. Vagrant can eliminate much of extra labour so lets go take a look at how that works. </p> 
-
 
 ### What is Vagrant?
 
@@ -34,11 +31,11 @@ introduction: Introduction to Vagrant
 
 <p align="justify">Development environments managed by Vagrant can run on: </p>
 
-<ul>
+<ul><ul><ul>
 <li>Local virtualization platforms like VMware/Virtualbox </li>
 <li>In the cloud, via AWS/Openstack </li>
 <li>In Containers such as Docker </li>
-</ul>
+</ul></ul></ul>
  
 <p align="justify">Okay so that's enough of introduction to Vagrant. Now we will cover prerequisites and overview of setup that you need to do before you can get going on your own. </p>
  
@@ -51,7 +48,6 @@ introduction: Introduction to Vagrant
 <li>Download Virtualbox binaries from <a href="https://www.virtualbox.org/wiki/Downloads">HERE</a> according to your platform. </li>
 <li>Install Virtualbox </li>
 </ul>
-
  
 ### Install Vagrant
 
@@ -64,7 +60,7 @@ introduction: Introduction to Vagrant
 ### Verifying the Installation
 
 <ul>
-<li>Verify that Vagrant is installed correctly by opening Command Prompt & typing "vagrant -v" </li>
+<li>Verify that Vagrant is installed correctly by opening Command Prompt & typing <code>vagrant -v</code> </li>
 <li>Also, If you run the vagrant command without any arguments, you will get the default help output, which displays available command options. </li>
 </ul>
 
@@ -87,10 +83,10 @@ introduction: Introduction to Vagrant
 ```
 
 <ul>
-<li>After running the above two commands, you will have a fully running virtual machine in VirtualBox running Ubuntu 12.04 LTS 64-bit. </li>
+<li>After running the above two commands, you will have a fully running virtual machine in VirtualBox running <code>Ubuntu 12.04 LTS 64-bit</code>. </li>
 <li>You can SSH into this machine with vagrant ssh, and when you are done playing around, you can terminate the virtual machine with vagrant destroy. </li>
 </ul>
- 
+
 #### Notes 
 
 <ul>

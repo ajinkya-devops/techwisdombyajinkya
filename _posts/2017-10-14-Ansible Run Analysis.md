@@ -51,8 +51,8 @@ introduction: Analysing Ansible Runs with ARA tool.
 ### Installation
 
 <p align="justify">There are 2 ways in which you can install ARA in your system. </p>
-
-1. Using **Ansible Role** hosted on my <a href="https://github.com/AjinkyaBapat/Ansible-Run-Analyser">GitHub Account </a>
+<ol>
+<li>Using **Ansible Role** hosted on my <a href="https://github.com/AjinkyaBapat/Ansible-Run-Analyser">GitHub Account </a></li>
 
 * Clone the repo & do:
 
@@ -69,9 +69,9 @@ introduction: Analysing Ansible Runs with ARA tool.
 ````
 * **Note**: It picks the IP address from ***ansible_default_ipv4*** fact gathered by *Ansible*. If there is no such fact gathered, replace it with your IP in `main.yml` file present in `roles/ara/tasks/` folder.
 
-2. ARA is an open source project available on <a href="https://github.com/dmsimard/ara">Github</a> under the Apache v2 license. Installation instructions are present under **Quickstart chapter**.
+<li>ARA is an open source project available on <a href="https://github.com/dmsimard/ara">Github</a> under the Apache v2 license. Installation instructions are present under **Quickstart chapter**. </li>
 
-<p align="justify">The <a href="http://ara.readthedocs.io/en/latest/">Documentation</a> and <a href="http://ara.readthedocs.io/en/latest/faq.html">frequently asked questions</a> are available on `readthedocs.io`. </p>
+<p align="justify">The <a href="http://ara.readthedocs.io/en/latest/">Documentation</a> and <a href="http://ara.readthedocs.io/en/latest/faq.html">frequently asked questions</a> are available on <code>readthedocs.io</code>. </p>
 
 -----
 ### Conclusion

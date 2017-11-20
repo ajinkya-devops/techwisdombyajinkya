@@ -16,12 +16,14 @@ introduction: Orchestrating Docker containers using Rancher.
 
 <p align="justify"><code>Rancher</code> is an open source software platform that enables organizations to run and manage *Docker* and *Kubernetes/Swarm/Mesos* in production. With Rancher, organizations no longer have to build a container services platform from scratch using a distinct set of open source technologies. Rancher supplies the entire software stack needed to manage containers in production. </p>
 
-<p align="justify">Rancher software consists of **four** major components: </p>
+<p align="justify">Rancher software consists of <b>four</b> major components: </p>
 
-  * Infrastructure Orchestration
-  * Container Orchestration & Scheduling
-  * Application Catalog
-  * Enterprise-Grade Control
+<ul><ul><ul>
+<li>Infrastructure Orchestration</li>
+<li>Container Orchestration & Scheduling</li>
+<li>Application Catalog</li>
+<li>Enterprise-Grade Control</li>
+<ul><ul><ul>
 
 ![placeholder](../assets/img/Post_Images/2017-09-11-Container-Orchestration-Using-Rancher/12.png "Rancher UI")
 
@@ -29,7 +31,7 @@ introduction: Orchestrating Docker containers using Rancher.
 
 ### Pre-requisites
 
-1. A Linux machine of any configuration with an access to Interne. t.
+1. A Linux machine of any configuration with an access to Interne.
 2. Docker Installed on the same machine. (If you don't know how to, visit <a href="https://docs.docker.com/engine/installation/linux/docker-ce/ubuntu/">HERE</a> and install it.
 
 ### Step 1 - Installing Rancher Server
@@ -47,13 +49,15 @@ introduction: Orchestrating Docker containers using Rancher.
     abc@xyz:~$docker run -d --restart=unless-stopped -p 8080:8080 rancher/server 
 ````
 
-Wherse,
+Where,
 
-   * `d`: Running the container in Detached mode
- * `--restart`=unless-stopped: Always restart the container regardless of the exit status
-  * `-p 8080:8080` - Expose port 8080 of the container to the port 8080 on the host
-   * `rancher/server`: Name of the Rancher Server Image
-   * It will first pull the `*rancher/server*` image & then spin up the container on it.
+<ul><ul><ul>
+<li><code>d</code>: Running the container in Detached mode</li>
+<li><code>--restart=unless-stopped</code>: Always restart the container regardless of the exit status</li>
+<li><code>-p 8080:8080</code> - Expose port 8080 of the container to the port 8080 on the host</li>
+<li><code>rancher/server</code>: Name of the Rancher Server Image</li>
+<li>It will first pull the <code>rancher/server</code> image & then spin up the container on it.</li>
+<ul><ul><ul>
 
 * Verify that the container is running by:
 
@@ -172,7 +176,7 @@ INFO: Launched Rancher Agent: 8f5ce937fff4c179f26e64aea0887f40839f2d201581f66bf7
 
 <p align="justify">If you see that you are using most of the memory or if your CPU is running continuously hot, you may want to launch more nodes to reduce container density and spread out the load. You can react quickly to load spikes by provisioning more compute nodes right from Rancher's UI. </p>
 
-<p align="justify">Once the spikes abate, you can shut down any additional nodes by visiting the <b>Hosts</ b> page, locating your host, and clicking the **Deactivate** icon (the box with two vertical lines, as shown in the following figure: </p>
+<p align="justify">Once the spikes abate, you can shut down any additional nodes by visiting the <b>Hosts</b> page, locating your host, and clicking the <b>Deactivate</b> icon (the box with two vertical lines, as shown in the following figure: </p>
 
 ![placeholder](../assets/img/Post_Images/2017-09-11-Container-Orchestration-Using-Rancher/8.png "Rancher UI")
 
