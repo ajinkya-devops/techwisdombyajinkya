@@ -23,7 +23,7 @@ introduction: Orchestrating Docker containers using Rancher.
 <li>Container Orchestration & Scheduling</li>
 <li>Application Catalog</li>
 <li>Enterprise-Grade Control</li>
-<ul><ul><ul>
+</ul></ul></ul>
 
 ![placeholder](../assets/img/Post_Images/2017-09-11-Container-Orchestration-Using-Rancher/12.png "Rancher UI")
 

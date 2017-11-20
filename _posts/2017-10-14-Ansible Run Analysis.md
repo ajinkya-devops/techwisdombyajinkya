@@ -52,30 +52,31 @@ introduction: Analysing Ansible Runs with ARA tool.
 
 <p align="justify">There are 2 ways in which you can install ARA in your system. </p>
 
-<ol>
-<li>Using <b>Ansible Role</b> hosted on my <a href="https://github.com/AjinkyaBapat/Ansible-Run-Analyser">GitHub Account </a></li>
 
-<ul><ul>
+1. Using <b>Ansible Role</b> hosted on my <a href="https://github.com/AjinkyaBapat/Ansible-Run-Analyser">GitHub Account </a>
+
+<ul>
 <li>Clone the repo & do:</li>
+</ul>
 
 ````yaml
   ansible-playbook Playbook.yml
 ````
-
+<ul>
 <li>If Playbook run is successful, you will get: </li>
+</ul>
 
 ````yaml
   TASK [ara : Display ara UI URL] ************************
   ok: [localhost] => {}
     "msg": "Access playbook records at http://YOUR_IP:9191" 
-
 ````
-
+<ul>
 <li><b>Note</b>: It picks the IP address from <b>ansible_default_ipv4</b> fact gathered by <b>Ansible</b>. If there is no such fact gathered, replace it with your IP in <code>main.yml</code> file present in <code>roles/ara/tasks/</code> folder. </li>
-</ul></ul>
+</ul>
 
-<li>ARA is an open source project available on <a href="https://github.com/dmsimard/ara">Github</a> under the Apache v2 license. Installation instructions are present under <b>Quickstart chapter</b>. </li>
-</ol>
+2. ARA is an open source project available on <a href="https://github.com/dmsimard/ara">Github</a> under the Apache v2 license. Installation instructions are present under <b>Quickstart chapter</b>.
+
 
 <p align="justify">The <a href="http://ara.readthedocs.io/en/latest/">Documentation</a> and <a href="http://ara.readthedocs.io/en/latest/faq.html">frequently asked questions</a> are available on <code>readthedocs.io</code>. </p>
 
