@@ -34,28 +34,22 @@ introduction: Introduction to Vagrant
 <ul><ul><ul>
 <li>Local virtualization platforms like VMware/Virtualbox </li>
 <li>In the cloud, via AWS/Openstack </li>
-<li>In Containers such as Docker </li>
-</ul></ul></ul>
- 
+<li>In Containers such as Docker </li></ul></ul></ul>
 <p align="justify">Okay so that's enough of introduction to Vagrant. Now we will cover prerequisites and overview of setup that you need to do before you can get going on your own. </p>
  
 ### Prerequisites 
 <p align="justify">As I mentioned earlier in the post, Vagrant acts as wrapper around virtualization software, so for Vagrant to work, you need to have some type of virtualization software setup. </p>
-
 <p align="justify">The easiest way is to install VirtualBox, because it is free, supports all major operating systems, and it works great with Vagrant. </p>
 
 <ul>
 <li>Download Virtualbox binaries from <a href="https://www.virtualbox.org/wiki/Downloads">HERE</a> according to your platform. </li>
-<li>Install Virtualbox </li>
-</ul>
- 
+<li>Install Virtualbox </li></ul>
+
 ### Install Vagrant
 
 <ul>
 <li>You can download Vagrant from <a href="https://www.vagrantup.com/downloads.html">HERE</a> </li> 
-<li>Install Vagrant according to the installation guide from <a href="https://www.vagrantup.com/docs/installation/">HERE</a> </li>
-</ul>
-
+<li>Install Vagrant according to the installation guide from <a href="https://www.vagrantup.com/docs/installation/">HERE</a> </li> </ul>
 
 ### Verifying the Installation
 

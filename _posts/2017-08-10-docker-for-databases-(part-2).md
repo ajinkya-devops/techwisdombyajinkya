@@ -115,8 +115,8 @@ You can do that by spinning up a Wordpress Image while linking it to MySQL conta
 
 <p align="justify">If you remove the MySQL container, the data in the mounted volumes will still be intact and you can run a new instance, mounting the same volume as data directory.</p>
 
-That's it!
+<b>That's it!</b>
 
 ### Conclusion
 
-<p align="justify">This completes my 2 part "Docker for Databases" series. You can check out Part 1 if you missed it somehow.</p>
+<p align="justify">This completes my 2 part <code>Docker for Databases</code> series. You can check out Part 1 if you missed it somehow.</p>

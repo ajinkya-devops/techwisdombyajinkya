@@ -32,17 +32,12 @@ You can access it on below link:
 
 <b> <a href="https://www.katacoda.com/ajinkyabapat/scenarios/scenario" target="_blank">Hands-on Tutorial - Jenkins Integration with GIT for CI</a> </b>
 
-
 This tutorial will guide you through:
 
 1. Jenkins Installation on Docker
-
 2. Jenkins Configuration
-
 3. Git Basics
-
 4. Git Commands
-
 5. CI using Jenkins-Git
 
  
