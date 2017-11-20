@@ -21,7 +21,7 @@
     <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
     <meta property="og:title" content="{% if page.title %}{{ page.title }} | {{ site.username }}{% else %}{{ site.title }}{% endif %}">
     {% if page.image %}
-    <meta property="og:image" content="{{ page.initpath }}">
+    <meta property="og:image" content="{{ site.url }}{{ site.baseurl }}{{ page.initpath }}">
     {% else %}
     <meta property="og:image" content="{{ site.url }}{{ site.baseurl }}{{ page.initpath }}">
     {% endif %}

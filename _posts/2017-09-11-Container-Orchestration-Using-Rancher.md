@@ -57,7 +57,7 @@ Where,
 <li><code>-p 8080:8080</code> - Expose port 8080 of the container to the port 8080 on the host</li>
 <li><code>rancher/server</code>: Name of the Rancher Server Image</li>
 <li>It will first pull the <code>rancher/server</code> image & then spin up the container on it.</li>
-<ul><ul><ul>
+</ul></ul></ul>
 
 * Verify that the container is running by:
 
