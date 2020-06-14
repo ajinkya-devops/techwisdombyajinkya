@@ -14,4 +14,4 @@ introduction: GCP Associate Cloud Engineer Notes
 ---
 <p align="justify">As we all know, <code>Virtual Machines(VMs)</code> are very popular among the entire IT world. Reason being: their capability of emulating an entire computing system. Virtual Machines gained popularity because of certain aspects of them which are listed below: </p>
 
-<iframe src="https://drive.google.com/file/d/1lNuyHWSotzCpyABy6-Tl9AMI6FlWmAyY/preview" width="100%" height="800rem"></iframe>
+<iframe src="/assets/pdf/AssociateCloudEngineerJourney.pdf" width="100%" height="800rem"></iframe>
