@@ -21,7 +21,7 @@ introduction: Passing Aviatrix Certified Engineer Exam
 <p align="justify"> Aviatrix is a cloud native networking company. Aviatrix cloud-native networking solution provides an end to end secure network solution for <b>AWS, Azure, Google Cloud and Oracle Cloud (OCI)</b>.
 </p>
 
-<p align="justify">The solution includes AWS Global Transit Network, an enterprise OpenVPN® access to VPC/VNet, encrypted routing for VPC/VNet to VPC/VNet traffic, Stateful Firewall and Egress FQDN and monitoring and logging of link status and latency. <br>The solution enables you to build a secure private network spanning one or more public clouds where a user can access any instance/VM with a private IP address directly.
+<p align="justify">The solution includes AWS Global Transit Network, an enterprise OpenVPN® access to VPC/VNet, encrypted routing for VPC/VNet to VPC/VNet traffic, Stateful Firewall and Egress FQDN and monitoring and logging of link status and latency. <br><br>The solution enables you to build a secure private network spanning one or more public clouds where a user can access any instance/VM with a private IP address directly.
 </p>
 
 <p align="justify">For an Aviatrix overview, check out <a href="https://docs.aviatrix.com/StartUpGuides/aviatrix_overview.html">this document</a>.</p>
@@ -46,15 +46,15 @@ introduction: Passing Aviatrix Certified Engineer Exam
 <ul><ul>
 
 <li>Aviatrix is currently offering the ACE Exam <b>FREE!</b> with coupon code <b>ACEONLINE</b> which is valid through <b>August 31</b>.</li>
-
+<br>
 <li>Once you sign up for the program, You'll be required to complete <b>Aviatrix Certified Engineer - Multi-Cloud Network Associate</b> Course which you can access through your account on <a href="https://aviatrix.teachable.com/">aviatrix.teachable.com </a></li>
-
+<br>
 <li>Without completing the course, you cannot book you Exam. </li>
-
+<br>
 <li>You <b>MUST</b> watch atleast <b>90%</b> part of each of the videos in the course & score atleast <b>70%</b> in the Quiz asssociated with each video in order to proceed to the next video!</li>
-
+<br>
 <li>Once you complete your course, you will be asked to book your exam. Aviatrix recommends scheduling the exam within <b>two weeks</b> of completing the course. </li>
-
+<br>
 <li>You will have <b>60 minutes</b> to complete the exam. If you do not pass the exam, you are allowed <b>1 re-take</b> within one week of your first attempt. </li>
 
 </ul></ul>
@@ -76,7 +76,7 @@ To do well in the exam you should:
 
 <li>For the ACE Associate course, the LABs are optional but I will highly recommended you to watch the <a href="https://community.aviatrix.com/t/35h32sz">Deploy Aviatrix Controller LAB video</a></li>
 
-<li>You can refer to my notes which I took from all of the resources mentioned above.</li>
+<li>You can refer to my <b>notes</b> which I took from all of the resources mentioned above.</li>
 
 <li>Doing all of the things mentioned above should be sufficient for you to rock your ACE Exam!</li>
 </ul></ul>
@@ -84,6 +84,7 @@ To do well in the exam you should:
 
 > I hope you find this post useful in order for you to clear the exam. Wish you the very best with your ACE Exam!
 
+<br>
 
 ### Notes
 
