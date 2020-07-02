@@ -8,7 +8,7 @@ description: My Personal Experience & Notes
 category: 'Cloud'
 tags:
 - Aviatrix
-- ACE Cert
+- ACECert
 twitter_text: Passing Aviatrix Certified Engineer Exam
 introduction: Passing Aviatrix Certified Engineer Exam
 ---
@@ -76,7 +76,7 @@ To do well in the exam you should:
 
 <li>For the ACE Associate course, the LABs are optional but I will highly recommended you to watch the <a href="https://community.aviatrix.com/t/35h32sz">Deploy Aviatrix Controller LAB video</a></li>
 
-<li>You can refer to my <b>notes</b> which I took from all of the resources mentioned above.</li>
+<li>You can refer to my <b>notes</b> which I took from all of the resources mentioned above. Please bare with my bad handwriting!</li>
 
 <li>Doing all of the things mentioned above should be sufficient for you to rock your ACE Exam!</li>
 </ul></ul>
@@ -88,4 +88,4 @@ To do well in the exam you should:
 
 ### Notes
 
-<iframe src="../assets/pdf/AssociateCloudEngineerJourney.pdf" width="100%" height="800rem"></iframe>
+<iframe src="../assets/pdf/ACENotesByAjinkya.pdf" width="100%" height="800rem"></iframe>
