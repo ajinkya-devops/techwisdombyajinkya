@@ -4,16 +4,17 @@ title: "Passing Aviatrix Certified Engineer Exam"
 date: 2020-07-02 10:10:55
 initpath: 'assets/img/Post_Images/2020-06-13-gcp-ace-notes/1.png'
 image: '../assets/img/Post_Images/2020-06-13-gcp-ace-notes/1.png'
-description: Handwritten notes for GCP ACE Exam
-category: 'devops'
+description: My Personal Experience & Notes
+category: 'Cloud'
 tags:
 - Aviatrix
 - ACE Cert
-twitter_text: GCP Associate Cloud Engineer Notes
-introduction: GCP Associate Cloud Engineer Notes
+twitter_text: Passing Aviatrix Certified Engineer Exam
+introduction: Passing Aviatrix Certified Engineer Exam
 ---
-<p align="justify">Recently, I sat for the <code>Aviatrix Certified Engineer</code> exam and Passed it. Here's my experience about the whole process, importance of the exam, and my <b> my personal notes </b> that I took while prepping for the exam.</p>
+<p align="justify">Recently, I sat for the <code>Aviatrix Certified Engineer</code> exam and Passed it. Here's my experience about the whole process, importance of the exam, and<b> my personal notes </b> that I took while prepping for the exam.</p>
 
+<br>
 
 ### About Aviatrix
 
@@ -38,12 +39,7 @@ introduction: GCP Associate Cloud Engineer Notes
 <p align="justify">You can know more about their certification programs & can enroll for the ACE Associate Certification from <a href="https://community.aviatrix.com/t/y4hh4ml/ace-associate-self-paced-learning-guidelines">HERE</a>.
 </p>
 
-### My experince of the exam & prep
-
-<p align="justify"> I sat for the exam on 24th of June, 2020. I got my result & certification one week later on 1st of July, 2020.
- </p>
-
-<p align="justify"> Some important info about the exam: </p>
+### Important information about ACE Exam
 
 <ul><ul>
 <li>Aviatrix is currently offering the ACE Exam FREE! with coupon code ACEONLINE which is valid through August 31.</li>
@@ -59,10 +55,44 @@ introduction: GCP Associate Cloud Engineer Notes
 </ul></ul>
 
 <ul><ul>
-<li>Once you complete your course, you will be asked to book your exam.</li>
+<li>Once you complete your course, you will be asked to book your exam. Aviatrix recommends scheduling the exam within two weeks of completing the course. </li>
+</ul></ul>
+
+<ul><ul>
+<li>You will have <b>60 minutes</b> to complete the exam. If you do not pass the exam, you are allowed <b>1 re-take</b> within one week of your first attempt. </li>
 </ul></ul>
 
 
+### My Experience & Preparation Tips
+
+<p align="justify"> I sat for the exam on 24th of June, 2020. I got my result & certification one week later on 1st of July, 2020.
+ </p>
+
+* To do well in the exam you should:
+
+<ul><ul>
+<li>Go through the MCN Architecture course thouroughly.</li>
+</ul></ul>
+
+<ul><ul>
+<li>Apart from the course, review these <a href="https://community.aviatrix.com/t/y4hh4ml/ace-associate-self-paced-learning-guidelines">ACE Associate Self Paced Learning Guidelines.</li>
+</ul></ul>
+
+<ul><ul>
+<li>Focus more on the Aviatrix Side of things like their components(Aviatrix Controller, CoPilot)</li>
+</ul></ul>
+
+<ul><ul>
+<li>For the ACE Associate course, the LABs are optional but I will highly recommended you to watch the <a href="https://community.aviatrix.com/t/35h32sz">Deploy Aviatrix Controller LAB video</a></li>
+</ul></ul>
+
+<ul><ul>
+<li>You can refer to my notes which I took from all of the resources mentioned above.</li>
+</ul></ul>
+
+<ul><ul>
+<li>Doing all of the things mentioned above should be sufficient for you to rock your ACE Exam!</li>
+</ul></ul>
 <p align="justify">
 <p align="justify">
 
