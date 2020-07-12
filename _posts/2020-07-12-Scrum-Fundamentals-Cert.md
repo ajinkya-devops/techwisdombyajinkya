@@ -51,11 +51,12 @@ Primary members get free access to the SFC course.
 <p align="justify"><b>2 -</b> Take an unproctored 40-question online exam. Answer <b>30</b> out of <b>40</b> questions correctly and get recognized as "SCRUM Fundamentals Certified" by SCRUMstudy™
  </p>
 
+<br>
 
-> I hope you find this post useful in order for you to clear the exam. Wish you the very best with your SFC Exam!
+> I hope you find this post useful to clear the exam. Wish you the very best with your SFC Exam!
 
 > <code>Also, don't forget to check out this awesome <a href="https://www.meetup.com/GDG-Cloud-Nuremberg/"> GDG Nuremberg Group </a> on Meetup!</code> 
-
+<br>
 ### Notes
 
 <iframe src="../assets/pdf/SFCNotesByAjinkya.pdf" width="100%" height="800rem"></iframe>
