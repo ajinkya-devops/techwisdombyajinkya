@@ -36,7 +36,7 @@ introduction: Passing Scrum Fundamentals Certification Exam
 <li>40 questions per exam.</li>
 <li>One mark awarded for every right answer.</li>
 <li>No negative marks for wrong answers.</li>
-<li>O30 questions need to be answered correctly to pass.</li>
+<li>30 questions need to be answered correctly to pass.</li>
 <li>60 minutes duration.</li>
 <li>Online unproctored exam.</li>
 </ul></ul>
@@ -48,7 +48,7 @@ introduction: Passing Scrum Fundamentals Certification Exam
 Primary members get free access to the SFC course.
  </p>
 
-<p align="justify"><b>2 -</b>Take an unproctored 40-question online exam. Answer 30 out of 40 questions correctly and get recognized as "SCRUM Fundamentals Certified" by SCRUMstudy™
+<p align="justify"><b>2 -</b> Take an unproctored 40-question online exam. Answer <b>30</b> out of <b>40</b> questions correctly and get recognized as "SCRUM Fundamentals Certified" by SCRUMstudy™
  </p>
 
 
