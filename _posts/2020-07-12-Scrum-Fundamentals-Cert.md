@@ -57,7 +57,7 @@ Primary members get free access to the SFC course.
 
 > <code>Also, don't forget to check out this awesome <a href="https://www.meetup.com/GDG-Cloud-Nuremberg/"> GDG Nuremberg Group </a> on Meetup!</code> 
 
-<br>
+
 
 ### Notes
 
