@@ -54,7 +54,7 @@ Primary members get free access to the SFC course.
 
 > I hope you find this post useful in order for you to clear the exam. Wish you the very best with your SFC Exam!
 
-> Also, don't forget to check out this awesome <a href="https://www.meetup.com/GDG-Cloud-Nuremberg/"> GDG Nuremberg Group </a> on Meetup! 
+> <code>Also, don't forget to check out this awesome <a href="https://www.meetup.com/GDG-Cloud-Nuremberg/"> GDG Nuremberg Group </a> on Meetup!</code> 
 
 ### Notes
 
