@@ -83,7 +83,9 @@ To do well in the exam you should:
 
 > I hope you find this post useful in order for you to clear the exam. Wish you the very best with your ACA Exam!
 
-<br>
+> <code>Also, don't forget to check out this awesome <a href="https://www.meetup.com/GDG-Cloud-Nuremberg/"> GDG Nuremberg Group </a> on Meetup!</code> 
+
+
 
 ### Notes
 
