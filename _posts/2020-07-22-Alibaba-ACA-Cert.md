@@ -73,7 +73,7 @@ To do well in the exam you should:
 
 <li>The same course is available on <a href="https://www.coursera.org/learn/alibaba-cloud-computing">Coursera</a> as well.</li>
 
-<li>Focus on the labs that they do in every section of the course.</li>
+<li>Focus on the <b>labs</b> that they do in every section of the course.</li>
 
 <li>You can refer to my <b>notes</b> which I took from all of the resources mentioned above.</li>
 
