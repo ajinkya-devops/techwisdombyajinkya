@@ -32,7 +32,7 @@ introduction: Passing Alibaba Cloud Associate Certification Exam.
 <p align="justify">Alibaba Cloud Certification Associate <b>(ACA)</b> is a certification designed for personnel who can use Alibaba Cloud Computing products. It covers all of Alibaba Cloud's core products from computing, storage, networking to security.
 </p>
 
-> ACA Certification acts as a foundational certification & is a basis for the Professional & Expert Certifications.
+> ACA Certification acts as a foundational certification & is a basis for the <code>Professional</code> & <code>Expert</code> Certifications.
 
 
 <p align="justify">You can know more about their certification programs & can enroll for the ACA Certification from <a href="https://edu.alibabacloud.com/certification">HERE</a>.
@@ -48,13 +48,11 @@ introduction: Passing Alibaba Cloud Associate Certification Exam.
 <br>
 <li>ACA Exam is currently available in <b>English</b> only.</li>
 <br>
-<li>Without completing the course, you cannot book you Exam. </li>
-<br>
 <li>Due to the pandemic COVID-19, their offline test center - Pearson VUE has currently limited or suspended their testing capacity in many countries.</li>
 <br>
 <li>Therefore, at the time of writing this post, Alibaba Cloud is offering an interim solution by allowing candidates to take their certification exam at home via <b>Zoom video meeting</b> to accomplish online proctoring.</li>
 <br>
-<li>You will have <b>90 minutes</b> to complete the exam. If you do not pass the exam, and if you want to take the same certification exam again, you must have at least 14 days gap between the 2 exams.</li>
+<li>You will have <b>90 minutes</b> to complete the exam. If you do not pass the exam, and if you want to take the same certification exam again, you must have at least <b>14 days</b> gap between the 2 exams.</li>
 <br>
 <li>When you submit your exam, you will see the exam score <b>immediately</b>. If you pass the exam, please fill in your name to generate the certificate, be careful as once your name is submitted, it <b>cannot be modified</b>.</li>
 
@@ -63,15 +61,17 @@ introduction: Passing Alibaba Cloud Associate Certification Exam.
 
 ### My Experience & Preparation Tips
 
-<p align="justify"> I sat for the exam on <b>9th</b> of July, 2020. I got my result & certification immediately after I submitted my exam.
+<p align="justify"> I sat for the exam on <b>9th of July, 2020</b>. I got my result & certification immediately after I submitted my exam.
  </p>
+
+![placeholder](../assets/img/Post_Images/2020-07-22-Alibaba-ACA-Cert/cert.png "My ACA Certificate!")
 
 To do well in the exam you should:
 
 <ul><ul>
 <li>Take their <a href="https://edu.alibabacloud.com/certification/clouder_acacloudcomputing">Cloud Computing Exam Preparation Course</a> which covers everything that is required to prepare for the exam.</li>
 
-<li>The same course is available on<a href="https://www.coursera.org/learn/alibaba-cloud-computing">Coursera</a> as well.</li>
+<li>The same course is available on <a href="https://www.coursera.org/learn/alibaba-cloud-computing">Coursera</a> as well.</li>
 
 <li>Focus on the labs that they do in every section of the course.</li>
 
