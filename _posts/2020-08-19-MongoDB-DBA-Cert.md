@@ -15,14 +15,13 @@ introduction: Part 1 of the 2 part Series.
 ---
 <p align="justify">Recently, I sat for the <code>MongoDB Certified DBA (C100DBA)</code> exam and Passed it. Here's my experience about the whole process, importance of the exam, and<b> my personal notes </b> that I took while prepping for the exam.</p>
 
-<img src="../assets/img/Post_Images/2020-08-19-MongoDB-DBA-Cert/cert.jpg" width="1000" height="900" alt="My MongoDB DBA Certificate!">
-
+<img src="../assets/img/Post_Images/2020-08-19-MongoDB-DBA-Cert/cert.jpg" width="1000" height="500" alt="My MongoDB DBA Certificate!">
 
 <p align="justify">For simplification, I have divided this post into <b>2 parts</b>. This part contains all the general information about MongoDB, their Certifications, Exam format, etc. </p>
 
 <p align="justify">Part 2 of this series will contain Exam tips, study materials for the C100DBA Exam. </p> 
 
-> Stay tuned for the 2nd Part!
+> <code>Stay tuned for the 2nd Part! </code>
 
 
 ### About MongoDB
@@ -52,9 +51,9 @@ Instead of storing data in tables of rows or columns like SQL databases, each ro
 <br>
 
 ### MongoDB Certifications
-<p align="justify">
-<ul><ul>
 
+<ul><ul>
+<p align="justify">
 <li>MongoDB certifications recognize developers and DBAs with the knowledge needed to build and maintain MongoDB applications. </li>
 <br>
 <li>MongoDB University provides 2 kinds of MongoDB Certifications: <b>Developer Associate</b> & <b>DBA Associate</b></li>
@@ -70,12 +69,14 @@ Instead of storing data in tables of rows or columns like SQL databases, each ro
 <li>MongoDB certifications align to a specific MongoDB major release and they remain valid for that version.</li>
 <br>
 <li>Exam cost for both the exams is <b>150.00 USD per attempt</b> without any Free Retake of the exam. </li>
-</ul></ul>
 </p>
+</ul></ul>
+
 
 ### Exam Format & Grading
-<p align="justify">
+
 <ul><ul>
+<p align="justify">
 <li>MongoDB certification exams are delivered online using a web proctoring solution(Examity).</li>
 
 <li>You have <b>90 minutes</b> to complete an exam.</li>
@@ -85,27 +86,27 @@ Instead of storing data in tables of rows or columns like SQL databases, each ro
 <li>Score Required to Pass is <b>490 points out of 600</b>.</li>
 
 <li>There is <b>no penalty</b> for incorrect answers.</li>
-
-</ul></ul>
 </p>
+</ul></ul>
+
 
 ### MongoDB Free Certification
-<p align="justify">
+
 <ul><ul>
+<p align="justify">
 <li>In the month of March, 2020, MongoDB announced their partnership with <b>GitHub & GitHub Education</b>. </li>
 
 <li>Hence, MongoDB is now part of the <a href="https://www.mongodb.com/students">GitHub Student Developer Pack</a>.</li>
 
-<li>All of MongoDB University training courses - from beginner to advanced - are completely free under the program.</li>
+<li>All of MongoDB University training courses - from beginner to advanced - are completely <b>free</b> under the program.</li>
 
 <li>You will get a <b>FREE CERTIFICATION VOUCHER</b> when you complete one of the suggested <a href="https://www.mongodb.com/blog/post/get-started-with-mongodb-university-learning-paths">learning paths</a>.</li>
 
-<li>You will also get $200 in MongoDB Atlas Credits. MongoDB Atlas is the global cloud database service for applications built on MongoDB.</li>
+<li>You will also get <b>$200</b> in MongoDB Atlas Credits. MongoDB Atlas is the global cloud database service for applications built on MongoDB.</li>
 
 <li>To apply and find more information, you can visit <a href="https://www.mongodb.com/students">this page</a>. </li>
-
-</ul></ul>
 </p>
+</ul></ul>
 
 ### C100 DBA Exam Tips & Notes
 
