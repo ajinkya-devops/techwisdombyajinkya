@@ -11,17 +11,19 @@ tags:
 - NoSQL
 - DBA
 twitter_text: Passing MongoDB Certified DBA Exam (Part 1).
-introduction: Part 1.
+introduction: Part 1 of the 2 part Series.
 ---
 <p align="justify">Recently, I sat for the <code>MongoDB Certified DBA (C100DBA)</code> exam and Passed it. Here's my experience about the whole process, importance of the exam, and<b> my personal notes </b> that I took while prepping for the exam.</p>
 
 <img src="../assets/img/Post_Images/2020-08-19-MongoDB-DBA-Cert/cert.jpg" width="1000" height="900" alt="My MongoDB DBA Certificate!">
 
 
-<p align="justify">For simplification, I have divided this post into 2 parts. This part contains all the general information about MongoDB, their Certifications, Exam format, etc. </p>
+<p align="justify">For simplification, I have divided this post into <b>2 parts</b>. This part contains all the general information about MongoDB, their Certifications, Exam format, etc. </p>
 
-<p align="justify">Part 2 of this series will contain Exam tips, study materials for the C100DBA Exam. Stay tuned for the 2nd Part! </p>
-<br>
+<p align="justify">Part 2 of this series will contain Exam tips, study materials for the C100DBA Exam. </p> 
+
+> Stay tuned for the 2nd Part!
+
 
 ### About MongoDB
 
@@ -50,7 +52,7 @@ Instead of storing data in tables of rows or columns like SQL databases, each ro
 <br>
 
 ### MongoDB Certifications
-
+<p align="justify">
 <ul><ul>
 
 <li>MongoDB certifications recognize developers and DBAs with the knowledge needed to build and maintain MongoDB applications. </li>
@@ -69,10 +71,10 @@ Instead of storing data in tables of rows or columns like SQL databases, each ro
 <br>
 <li>Exam cost for both the exams is <b>150.00 USD per attempt</b> without any Free Retake of the exam. </li>
 </ul></ul>
-
+</p>
 
 ### Exam Format & Grading
-
+<p align="justify">
 <ul><ul>
 <li>MongoDB certification exams are delivered online using a web proctoring solution(Examity).</li>
 
@@ -85,10 +87,10 @@ Instead of storing data in tables of rows or columns like SQL databases, each ro
 <li>There is <b>no penalty</b> for incorrect answers.</li>
 
 </ul></ul>
-
+</p>
 
 ### MongoDB Free Certification
-
+<p align="justify">
 <ul><ul>
 <li>In the month of March, 2020, MongoDB announced their partnership with <b>GitHub & GitHub Education</b>. </li>
 
@@ -103,9 +105,10 @@ Instead of storing data in tables of rows or columns like SQL databases, each ro
 <li>To apply and find more information, you can visit <a href="https://www.mongodb.com/students">this page</a>. </li>
 
 </ul></ul>
+</p>
 
 ### C100 DBA Exam Tips & Notes
 
-<p align="justify">Stay tuned for the Part 2 of this MongoDB Certification Preparation series in which I will write about preaparation tips, study material & much more! </p>
+> <p align="justify">Stay tuned for the Part 2 of this MongoDB Certification Preparation series in which I will write about preaparation tips, study material & much more! </p>
 
 <img src="../assets/img/Post_Images/2020-08-19-MongoDB-DBA-Cert/giphy.gif" width="200" height="200" alt="Stay Tuned!">
