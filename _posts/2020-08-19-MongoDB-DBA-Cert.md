@@ -108,4 +108,4 @@ Instead of storing data in tables of rows or columns like SQL databases, each ro
 
 <p align="justify">Stay tuned for the Part 2 of this MongoDB Certification Preparation series in which I will write about preaparation tips, study material & much more! </p>
 
-<img src="./assets/img/Post_Images/2020-08-19-MongoDB-DBA-Cert/giphy.gif" width="200" height="200" alt="Stay Tuned!">
+<img src="../assets/img/Post_Images/2020-08-19-MongoDB-DBA-Cert/giphy.gif" width="200" height="200" alt="Stay Tuned!">
