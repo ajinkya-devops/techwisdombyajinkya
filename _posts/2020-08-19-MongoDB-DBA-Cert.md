@@ -15,7 +15,7 @@ introduction: Part 1 of the 2 part Series.
 ---
 <p align="justify">Recently, I sat for the <code>MongoDB Certified DBA (C100DBA)</code> exam and Passed it. Here's my experience about the whole process, importance of the exam, and<b> my personal notes </b> that I took while prepping for the exam.</p>
 
-<img src="../assets/img/Post_Images/2020-08-19-MongoDB-DBA-Cert/cert.jpg" width="1000" height="500" alt="My MongoDB DBA Certificate!">
+<img src="../assets/img/Post_Images/2020-08-19-MongoDB-DBA-Cert/cert.jpg" width="1000" height="600" alt="My MongoDB DBA Certificate!">
 
 <p align="justify">For simplification, I have divided this post into <b>2 parts</b>. This part contains all the general information about MongoDB, their Certifications, Exam format, etc. </p>
 
@@ -31,7 +31,7 @@ introduction: Part 1 of the 2 part Series.
 Instead of storing data in tables of rows or columns like SQL databases, each row in a MongoDB database is a document described in <b>JSON</b>, a formatting language.
 </p>
 
-<p align="justify">According to the survey conducted by <code>Scalegrid.io</code>, MongoDB ranks <b>3rd</b> among Most popular Open Source Databases & <b>1st</b> among Most Popular NoSQL Databases for year 2019.
+<p align="justify">According to the survey conducted by <code>Scalegrid.io</code>, MongoDB ranks <b>3rd</b> among Most popular Open Source Databases & <b>1st</b> among Most Popular NoSQL Databases for the year 2019.
 </p>
 
 ![placeholder](../assets/img/Post_Images/2020-08-19-MongoDB-DBA-Cert/populardbs.png "Most Popular Open Source Databases 2019")
@@ -39,7 +39,6 @@ Instead of storing data in tables of rows or columns like SQL databases, each ro
 <p align="justify">You can learn more about the Survey & check where does MongoDB stands infront of its competitors by visiting this <a href="https://scalegrid.io/blog/2019-open-source-database-report-top-databases-public-cloud-vs-on-premise-polyglot-persistence/">Survey Page</a>.
 </p>
 
-<br>
 
 ### SQL vs MongoDB
 
@@ -48,26 +47,39 @@ Instead of storing data in tables of rows or columns like SQL databases, each ro
 <p align="justify">MongoDB, on the other hand, doesn’t maintain these relationships. It’s a <b>non-relational</b> database, and anything you want to know about a record needs to be contained within that record itself. That said, you can choose to include data models and linking fields in your collections when creating them, but it’s up to you to enforce those models and keep links working between your MongoDB collections.
 </p>
 
-<br>
 
 ### MongoDB Certifications
 
 <ul><ul>
 <p align="justify">
 <li>MongoDB certifications recognize developers and DBAs with the knowledge needed to build and maintain MongoDB applications. </li>
+</p>
 <br>
+<p align="justify">
 <li>MongoDB University provides 2 kinds of MongoDB Certifications: <b>Developer Associate</b> & <b>DBA Associate</b></li>
+</p>
 <br>
+<p align="justify">
 <li>The <code>MongoDB Certified DBA Associate Level Exam</code> is for administrators with knowledge of the concepts and mechanics of MongoDB.</li>
+</p>
 <br>
+<p align="justify">
 <li>The <code>MongoDB Certified Developer Associate Level Exam</code> is intended for individuals with knowledge of the fundamentals of designing and building applications using MongoDB.</li>
+</p>
 <br>
+<p align="justify">
 <li>Both of these Exams require you to have General IT Knowledge like <b>Fundamental database concepts</b>, <b>Fundamentals of system programming</b> & <b>Basic JavaScript programming</b>.</li>
+</p>
 <br>
+<p align="justify">
 <li>MongoDB currently offers certifications at the <b>Associate Level</b> for the DBA and Developer roles. Certification at other levels will be available in the future.</li>
+</p>
 <br>
+<p align="justify">
 <li>MongoDB certifications align to a specific MongoDB major release and they remain valid for that version.</li>
+</p>
 <br>
+<p align="justify">
 <li>Exam cost for both the exams is <b>150.00 USD per attempt</b> without any Free Retake of the exam. </li>
 </p>
 </ul></ul>
