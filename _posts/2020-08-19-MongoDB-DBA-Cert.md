@@ -22,7 +22,7 @@ introduction: Part 1 of the 2 part Series.
 <p align="justify">Part 2 of this series will contain Exam tips, study materials for the C100DBA Exam. </p> 
 
 > <code>Stay tuned for the 2nd Part! </code>
-<br>
+
 
 ### About MongoDB
 
@@ -38,7 +38,7 @@ Instead of storing data in tables of rows or columns like SQL databases, each ro
 
 <p align="justify">You can learn more about the Survey & check where does MongoDB stands infront of its competitors by visiting this <a href="https://scalegrid.io/blog/2019-open-source-database-report-top-databases-public-cloud-vs-on-premise-polyglot-persistence/">Survey Page</a>.
 </p>
-<br>
+
 
 ### SQL vs MongoDB
 
@@ -48,6 +48,7 @@ Instead of storing data in tables of rows or columns like SQL databases, each ro
 </p>
 
 <img src="../assets/img/Post_Images/2020-08-19-MongoDB-DBA-Cert/sqlvsnosql.gif" width="299" height="255" alt="SQL vs NoSQL!">
+
 
 
 ### MongoDB Certifications
