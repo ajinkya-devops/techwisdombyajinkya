@@ -40,6 +40,7 @@ Instead of storing data in tables of rows or columns like SQL databases, each ro
 </p>
 
 
+
 ### SQL vs MongoDB
 
 <p align="justify">The differences between MongoDB and traditional SQL-based databases are fundamental. When you use <b>Postgres</b>, <b>MySQL</b>, or <b>SQL Server</b> to power a project, you store data in a set of tables that often cross-reference one another to maintain relationships between data points.</p>
@@ -47,41 +48,26 @@ Instead of storing data in tables of rows or columns like SQL databases, each ro
 <p align="justify">MongoDB, on the other hand, doesn’t maintain these relationships. It’s a <b>non-relational</b> database, and anything you want to know about a record needs to be contained within that record itself. That said, you can choose to include data models and linking fields in your collections when creating them, but it’s up to you to enforce those models and keep links working between your MongoDB collections.
 </p>
 
+<img src="../assets/img/Post_Images/2020-08-19-MongoDB-DBA-Cert/sqlvsnosql.gif" width="199" height="155" alt="SQL vs NoSQL!">
 
 ### MongoDB Certifications
 
 <ul><ul>
-<p align="justify">
 <li>MongoDB certifications recognize developers and DBAs with the knowledge needed to build and maintain MongoDB applications. </li>
-</p>
 <br>
-<p align="justify">
 <li>MongoDB University provides 2 kinds of MongoDB Certifications: <b>Developer Associate</b> & <b>DBA Associate</b></li>
-</p>
 <br>
-<p align="justify">
 <li>The <code>MongoDB Certified DBA Associate Level Exam</code> is for administrators with knowledge of the concepts and mechanics of MongoDB.</li>
-</p>
 <br>
-<p align="justify">
 <li>The <code>MongoDB Certified Developer Associate Level Exam</code> is intended for individuals with knowledge of the fundamentals of designing and building applications using MongoDB.</li>
-</p>
 <br>
-<p align="justify">
 <li>Both of these Exams require you to have General IT Knowledge like <b>Fundamental database concepts</b>, <b>Fundamentals of system programming</b> & <b>Basic JavaScript programming</b>.</li>
-</p>
 <br>
-<p align="justify">
 <li>MongoDB currently offers certifications at the <b>Associate Level</b> for the DBA and Developer roles. Certification at other levels will be available in the future.</li>
-</p>
 <br>
-<p align="justify">
 <li>MongoDB certifications align to a specific MongoDB major release and they remain valid for that version.</li>
-</p>
 <br>
-<p align="justify">
 <li>Exam cost for both the exams is <b>150.00 USD per attempt</b> without any Free Retake of the exam. </li>
-</p>
 </ul></ul>
 
 
@@ -122,6 +108,6 @@ Instead of storing data in tables of rows or columns like SQL databases, each ro
 
 ### C100 DBA Exam Tips & Notes
 
-> <p align="justify">Stay tuned for the Part 2 of this MongoDB Certification Preparation series in which I will write about preaparation tips, study material & much more! </p>
+> <p align="justify">Stay tuned for the <code>Part 2</code> of this MongoDB Certification Preparation series in which I will write about preaparation tips, study material & much more! </p>
 
 <img src="../assets/img/Post_Images/2020-08-19-MongoDB-DBA-Cert/giphy.gif" width="200" height="200" alt="Stay Tuned!">
