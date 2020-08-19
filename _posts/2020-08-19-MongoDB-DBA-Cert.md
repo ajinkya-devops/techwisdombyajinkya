@@ -11,11 +11,11 @@ tags:
 - NoSQL
 - DBA
 twitter_text: Passing MongoDB Certified DBA Exam (Part 1).
-introduction: Passing MongoDB Certified DBA Exam (Part 1).
+introduction: Part 1.
 ---
 <p align="justify">Recently, I sat for the <code>MongoDB Certified DBA (C100DBA)</code> exam and Passed it. Here's my experience about the whole process, importance of the exam, and<b> my personal notes </b> that I took while prepping for the exam.</p>
 
-![placeholder](../assets/img/Post_Images/2020-08-19-MongoDB-DBA-Cert/cert.jpg "My MongoDB DBA Certificate!")
+<img src="../assets/img/Post_Images/2020-08-19-MongoDB-DBA-Cert/cert.jpg" width="1000" height="900" alt="My MongoDB DBA Certificate!">
 
 
 <p align="justify">For simplification, I have divided this post into 2 parts. This part contains all the general information about MongoDB, their Certifications, Exam format, etc. </p>
