@@ -40,6 +40,8 @@ Instead of storing data in tables of rows or columns like SQL databases, each ro
 </p>
 
 
+
+
 ### SQL vs MongoDB
 
 <p align="justify">The differences between MongoDB and traditional SQL-based databases are fundamental. When you use <b>Postgres</b>, <b>MySQL</b>, or <b>SQL Server</b> to power a project, you store data in a set of tables that often cross-reference one another to maintain relationships between data points.</p>
@@ -48,6 +50,7 @@ Instead of storing data in tables of rows or columns like SQL databases, each ro
 </p>
 
 <img src="../assets/img/Post_Images/2020-08-19-MongoDB-DBA-Cert/sqlvsnosql.gif" width="299" height="255" alt="SQL vs NoSQL!">
+
 
 
 
