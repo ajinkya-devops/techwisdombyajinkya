@@ -22,7 +22,7 @@ introduction: Part 1 of the 2 part Series.
 <p align="justify">Part 2 of this series will contain Exam tips, study materials for the C100DBA Exam. </p> 
 
 > <code>Stay tuned for the 2nd Part! </code>
-
+<br>
 
 ### About MongoDB
 
@@ -38,8 +38,7 @@ Instead of storing data in tables of rows or columns like SQL databases, each ro
 
 <p align="justify">You can learn more about the Survey & check where does MongoDB stands infront of its competitors by visiting this <a href="https://scalegrid.io/blog/2019-open-source-database-report-top-databases-public-cloud-vs-on-premise-polyglot-persistence/">Survey Page</a>.
 </p>
-
-
+<br>
 
 ### SQL vs MongoDB
 
@@ -48,7 +47,8 @@ Instead of storing data in tables of rows or columns like SQL databases, each ro
 <p align="justify">MongoDB, on the other hand, doesn’t maintain these relationships. It’s a <b>non-relational</b> database, and anything you want to know about a record needs to be contained within that record itself. That said, you can choose to include data models and linking fields in your collections when creating them, but it’s up to you to enforce those models and keep links working between your MongoDB collections.
 </p>
 
-<img src="../assets/img/Post_Images/2020-08-19-MongoDB-DBA-Cert/sqlvsnosql.gif" width="199" height="155" alt="SQL vs NoSQL!">
+<img src="../assets/img/Post_Images/2020-08-19-MongoDB-DBA-Cert/sqlvsnosql.gif" width="299" height="255" alt="SQL vs NoSQL!">
+
 
 ### MongoDB Certifications
 
