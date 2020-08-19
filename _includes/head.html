@@ -18,6 +18,7 @@
     {% endif %}
 
     <!-- Social: Facebook / Open Graph -->
+    <meta property="og:type" content="website" />
     <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
     <meta property="og:title" content="{% if page.title %}{{ page.title }} | {{ site.username }}{% else %}{{ site.title }}{% endif %}">
     {% if page.image %}
